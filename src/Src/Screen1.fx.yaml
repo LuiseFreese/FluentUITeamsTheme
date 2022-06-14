@@ -1367,11 +1367,6 @@ Screen1 As screen:
         ZIndex: =5
 
     ComboBox1 As combobox:
-        Items: =ComboBoxSample
-        SearchItems: =Search(ComboBoxSample,ComboBox1.SearchText,"Value1")
-        X: =977
-        Y: =82
-        ZIndex: =6
         BorderColor: =gblAppStyles.Dropdown.BorderColor
         BorderThickness: =gblAppStyles.Dropdown.BorderThickness
         ChevronBackground: =gblAppStyles.Dropdown.ChevronBackground
@@ -1392,11 +1387,15 @@ Screen1 As screen:
         HoverBorderColor: =gblAppStyles.Dropdown.HoverBorderColor
         HoverColor: =gblAppStyles.Dropdown.HoverColor
         HoverFill: =gblAppStyles.Dropdown.HoverFill
+        Items: =ComboBoxSample
         PressedBorderColor: =gblAppStyles.Dropdown.PressedBorderColor
         PressedColor: =gblAppStyles.Dropdown.PressedColor
         PressedFill: =gblAppStyles.Dropdown.PressedFill
+        SearchItems: =Search(ComboBoxSample,ComboBox1.SearchText,"Value1")
         SelectionColor: =gblAppStyles.Dropdown.SelectionColor
         SelectionFill: =gblAppStyles.Dropdown.SelectionFill
         Width: =300
-
+        X: =977
+        Y: =82
+        ZIndex: =6
 

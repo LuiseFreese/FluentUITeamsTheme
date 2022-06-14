@@ -2,15 +2,16 @@
   "ComponentIndexes": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button1": 8,
-    "Button1_1": 10,
+    "btn_Primary": 8,
+    "btn_Secondary": 10,
     "drp_Theme": 4,
-    "Label2": 9,
-    "Screen1": 3
+    "lbl_1": 9,
+    "Screen1": 3,
+    "TextInput2": 12
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/14/2022 13:44:08",
+  "HeaderLastSavedDateTimeUTC": "06/14/2022 14:03:47",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -27,15 +28,17 @@
   "OrderXMLTemplate": {
     "button": 1,
     "dropdown": 0,
-    "label": 2
+    "label": 2,
+    "text": 3
   },
   "PublishOrderIndices": {
     "App": 0,
-    "Button1": 1,
-    "Button1_1": 2,
+    "btn_Primary": 1,
+    "btn_Secondary": 2,
     "drp_Theme": 0,
-    "Label2": 3,
-    "Screen1": 0
+    "lbl_1": 3,
+    "Screen1": 0,
+    "TextInput2": 4
   },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},

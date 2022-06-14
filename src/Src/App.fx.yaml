@@ -4,7 +4,7 @@ App As appinfo:
         =// THEME
         Set(
             gblThemeDark,
-            Param("theme") = "dark" Or drp_Theme.SelectedText.Value = "darkmode"
+            Param("theme") = "dark" Or drp_Theme.SelectedText.Value = "dark"
         );
         Set(
             gblThemeHiCo,

@@ -966,8 +966,8 @@ App As appinfo:
                         gblThemeDark,
                         gblAppColors.NeutralWebGray120,
                         gblAppColors.NeutralWebGray60
-                    )/*,
-                    Size: gblAppSizes.Font.Medium*/
+                    ),
+                    Height: 32
                 },
                 Label: {
                     BorderColor: If(

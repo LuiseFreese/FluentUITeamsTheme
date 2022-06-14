@@ -1259,6 +1259,7 @@ Screen1 As screen:
         Fill: =gblAppStyles.Label.Fill
         FocusedBorderColor: =gblAppStyles.Label.FocusedBorderColor
         FocusedBorderThickness: =gblAppStyles.Label.FocusedBorderThickness
+        Font: =Font.'Segoe UI'
         Height: =gblAppStyles.Label.Height
         HoverBorderColor: =gblAppStyles.Label.HoverBorderColor
         HoverColor: =gblAppStyles.Label.HoverColor
@@ -1312,6 +1313,17 @@ Screen1 As screen:
         DisabledBorderColor: =gblAppStyles.TextInput.DisabledBorderColor
         DisabledColor: =gblAppStyles.TextInput.DisabledColor
         DisabledFill: =gblAppStyles.TextInput.DisabledFill
+        Fill: =gblAppStyles.TextInput.Fill
+        FocusedBorderColor: =gblAppStyles.TextInput.FocusedBorderColor
+        FocusedBorderThickness: =gblAppStyles.TextInput.FocusedBorderThickness
+        Font: =Font.'Segoe UI'
+        HoverBorderColor: =gblAppStyles.TextInput.HoverBorderColor
+        HoverColor: =gblAppStyles.TextInput.HoverColor
+        HoverFill: =gblAppStyles.TextInput.HoverFill
+        PressedBorderColor: =gblAppStyles.TextInput.PressedBorderColor
+        PressedColor: =gblAppStyles.TextInput.PressedColor
+        PressedFill: =gblAppStyles.TextInput.PressedFill
+        RadiusBottomLeft: =gblAppStyles.TextInput.Radius
         X: =34
         Y: =200
         ZIndex: =5

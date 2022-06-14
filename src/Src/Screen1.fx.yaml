@@ -23,7 +23,7 @@ Screen1 As screen:
         HoverColor: =gblAppStyles.Dropdown.HoverColor
         HoverFill: =gblAppStyles.Dropdown.HoverFill
         Items: =["default", "dark", "high contrast"]
-        OnChange: |-
+        OnChange: |
             =Set(
                 gblThemeDark,
                 Param("theme") = "dark" Or drp_Theme.SelectedText.Value = "dark"
@@ -748,8 +748,9 @@ Screen1 As screen:
                             gblThemeDark,
                             gblAppColors.OverlayTransparent,
                             gblAppColors.OverlayTransparent
-                        )/*,
-                        Size: gblAppSizes.Font.Medium*/
+                        ),
+                        Checkboxsize: 32,
+                        Height: 32
                     },
                     Dropdown: {
                         BorderColor: If(
@@ -1126,6 +1127,94 @@ Screen1 As screen:
                         Height: 32,
                         Width: 208
                     },
+                    Rating: {
+                        BorderColor: If(
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastHyperlinks,
+                            gblThemeDark,
+                            gblAppColors.OverlayTransparent,
+                            gblAppColors.OverlayTransparent
+                        ),
+                        RatingFill: If(
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastHyperlinks,
+                            gblThemeDark,
+                            gblAppColors.TeamsDarkTint10,
+                            gblAppColors.TeamsDefaultPrimary
+                        )
+                    },
+                    Slider: {
+                        BorderColor: If(
+                            gblThemeHiCo,
+                            gblAppColors.OverlayTransparent,
+                            gblThemeDark,
+                            gblAppColors.OverlayTransparent,
+                            gblAppColors.OverlayTransparent
+                        ),
+                        DisabledBorderColor: If(
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastDisabled,
+                            gblThemeDark,
+                            gblAppColors.NeutralWebGray150,
+                            gblAppColors.NeutralWebGray30
+                        ),
+                        FocusedBorderColor: If(
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastSelectedBackground,
+                            gblThemeDark,
+                            gblAppColors.TeamsDarkTint10,
+                            gblAppColors.TeamsDefaultPrimary
+                        ),
+                        HandleActiveFill: If(
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastHyperlinks,
+                            gblThemeDark,
+                            gblAppColors.TeamsDarkTint10,
+                            gblAppColors.TeamsDefaultPrimary
+                        ),
+                        HandleFill: If(
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastHyperlinks,
+                            gblThemeDark,
+                            gblAppColors.TeamsDarkTint10,
+                            gblAppColors.TeamsDefaultPrimary
+                        ),
+                        HandleHoverFill: If(
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastHyperlinks,
+                            gblThemeDark,
+                            gblAppColors.TeamsDarkTint10,
+                            gblAppColors.TeamsDefaultPrimary
+                        ),
+                        RailFill: If(
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastHyperlinks,
+                            gblThemeDark,
+                            gblAppColors.TeamsDarkTint10,
+                            gblAppColors.TeamsDefaultPrimary
+                        ),
+                        RailHoverFill: If(
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastHyperlinks,
+                            gblThemeDark,
+                            gblAppColors.TeamsDarkTint10,
+                            gblAppColors.TeamsDefaultPrimary
+                        ),
+                        ValueFill: If(
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastHyperlinks,
+                            gblThemeDark,
+                            gblAppColors.TeamsDarkTint10,
+                            gblAppColors.TeamsDefaultPrimary
+                        ),
+                        ValueHoverFill: If(
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastHyperlinks,
+                            gblThemeDark,
+                            gblAppColors.TeamsDarkTint10,
+                            gblAppColors.TeamsDefaultPrimary
+                        )
+                    },
                     Toggle: {
                         BorderColor: If(
                             gblThemeHiCo,
@@ -1166,14 +1255,14 @@ Screen1 As screen:
                             gblThemeHiCo,
                             gblAppColors.NeutralWebWhite,
                             gblThemeDark,
-                            gblAppColors.NeutralWebBlack,
+                            gblAppColors.NeutralWebWhite,
                             gblAppColors.NeutralWebWhite
                         ),
                         FalseHoverFill: If(
                             gblThemeHiCo,
                             gblAppColors.HighContrastHyperlinks,
                             gblThemeDark,
-                            gblAppColors.NeutralWebGray210,
+                            gblAppColors.NeutralWebGray80,
                             gblAppColors.NeutralWebWhite
                         ),
                         FocusedBorderColor: If(
@@ -1218,7 +1307,6 @@ Screen1 As screen:
                             gblAppColors.OverlayTransparent,
                             gblAppColors.OverlayTransparent
                         ),
-                        //Size: gblAppSizes.Font.Medium,
                         TrueFill: If(
                             gblThemeHiCo,
                             gblAppColors.HighContrastSelectedBackground,
@@ -1241,9 +1329,9 @@ Screen1 As screen:
         PressedFill: =gblAppStyles.Dropdown.PressedFill
         SelectionColor: =gblAppStyles.Dropdown.SelectionColor
         SelectionFill: =gblAppStyles.Dropdown.SelectionFill
-        Width: =300
-        X: =1005
-        Y: =30
+        Width: =gblAppStyles.Dropdown.Width
+        X: =1123
+        Y: =38
         ZIndex: =1
 
     btn_Primary As button:
@@ -1301,8 +1389,8 @@ Screen1 As screen:
         Size: =14
         Text: ="Textlabel"
         Width: =100
-        X: =37
-        Y: =142
+        X: =40
+        Y: =126
         ZIndex: =3
 
     btn_Secondary As button:
@@ -1334,7 +1422,7 @@ Screen1 As screen:
         Size: =14
         Text: ="secondary"
         Width: =100
-        X: =144
+        X: =149
         Y: =70
         ZIndex: =4
 
@@ -1342,7 +1430,7 @@ Screen1 As screen:
         BorderColor: =gblAppStyles.TextInput.BorderColor
         BorderThickness: =gblAppStyles.TextInput.BorderThickness
         Color: =gblAppStyles.TextInput.Color
-        Default: ="Text input"
+        Default: =""
         DisabledBorderColor: =gblAppStyles.TextInput.DisabledBorderColor
         DisabledColor: =gblAppStyles.TextInput.DisabledColor
         DisabledFill: =gblAppStyles.TextInput.DisabledFill
@@ -1351,6 +1439,7 @@ Screen1 As screen:
         FocusedBorderThickness: =gblAppStyles.TextInput.FocusedBorderThickness
         Font: =Font.'Segoe UI'
         Height: =gblAppStyles.TextInput.Height
+        HintText: ="type here..."
         HoverBorderColor: =gblAppStyles.TextInput.HoverBorderColor
         HoverColor: =gblAppStyles.TextInput.HoverColor
         HoverFill: =gblAppStyles.TextInput.HoverFill
@@ -1362,8 +1451,9 @@ Screen1 As screen:
         RadiusTopLeft: =gblAppStyles.TextInput.Radius
         RadiusTopRight: =gblAppStyles.TextInput.Radius
         Size: =14
-        X: =34
-        Y: =200
+        Width: =208
+        X: =46
+        Y: =158
         ZIndex: =5
 
     ComboBox1 As combobox:
@@ -1387,6 +1477,7 @@ Screen1 As screen:
         HoverBorderColor: =gblAppStyles.Dropdown.HoverBorderColor
         HoverColor: =gblAppStyles.Dropdown.HoverColor
         HoverFill: =gblAppStyles.Dropdown.HoverFill
+        InputTextPlaceholder: ="Combobox"
         Items: =ComboBoxSample
         PressedBorderColor: =gblAppStyles.Dropdown.PressedBorderColor
         PressedColor: =gblAppStyles.Dropdown.PressedColor
@@ -1394,8 +1485,144 @@ Screen1 As screen:
         SearchItems: =Search(ComboBoxSample,ComboBox1.SearchText,"Value1")
         SelectionColor: =gblAppStyles.Dropdown.SelectionColor
         SelectionFill: =gblAppStyles.Dropdown.SelectionFill
-        Width: =300
-        X: =977
-        Y: =82
+        Width: =gblAppStyles.Dropdown.Width
+        X: =46
+        Y: =294
         ZIndex: =6
+
+    Checkbox1 As checkbox:
+        BorderColor: =gblAppStyles.Checkbox.BorderColor
+        BorderThickness: =gblAppStyles.Checkbox.BorderThickness
+        CheckboxBackgroundFill: =gblAppStyles.Checkbox.CheckboxBackgroundFill
+        CheckboxBorderColor: =gblAppStyles.Checkbox.CheckboxBorderColor
+        CheckboxSize: =gblAppStyles.Checkbox.Checkboxsize
+        CheckmarkFill: =gblAppStyles.Checkbox.CheckmarkFill
+        Color: =gblAppStyles.Checkbox.Color
+        DisabledBorderColor: =gblAppStyles.Checkbox.DisabledBorderColor
+        DisabledColor: =gblAppStyles.Checkbox.DisabledColor
+        DisabledFill: =gblAppStyles.Checkbox.DisabledFill
+        Fill: =gblAppStyles.Checkbox.Fill
+        FocusedBorderColor: =gblAppStyles.Checkbox.FocusedBorderColor
+        Font: =Font.'Segoe UI'
+        Height: =gblAppStyles.Checkbox.Height
+        HoverBorderColor: =gblAppStyles.Checkbox.HoverBorderColor
+        HoverColor: =gblAppStyles.Checkbox.HoverColor
+        HoverFill: =gblAppStyles.Checkbox.HoverFill
+        PressedBorderColor: =gblAppStyles.Checkbox.PressedBorderColor
+        PressedColor: =gblAppStyles.Checkbox.PressedColor
+        PressedFill: =gblAppStyles.Checkbox.PressedFill
+        Text: ="Option 1"
+        X: =46
+        Y: =208
+        ZIndex: =7
+
+    Checkbox1_1 As checkbox:
+        BorderColor: =gblAppStyles.Checkbox.BorderColor
+        BorderThickness: =gblAppStyles.Checkbox.BorderThickness
+        CheckboxBackgroundFill: =gblAppStyles.Checkbox.CheckboxBackgroundFill
+        CheckboxBorderColor: =gblAppStyles.Checkbox.CheckboxBorderColor
+        CheckboxSize: =gblAppStyles.Checkbox.Checkboxsize
+        CheckmarkFill: =gblAppStyles.Checkbox.CheckmarkFill
+        Color: =gblAppStyles.Checkbox.Color
+        DisabledBorderColor: =gblAppStyles.Checkbox.DisabledBorderColor
+        DisabledColor: =gblAppStyles.Checkbox.DisabledColor
+        DisabledFill: =gblAppStyles.Checkbox.DisabledFill
+        Fill: =gblAppStyles.Checkbox.Fill
+        FocusedBorderColor: =gblAppStyles.Checkbox.FocusedBorderColor
+        Font: =Font.'Segoe UI'
+        Height: =gblAppStyles.Checkbox.Height
+        HoverBorderColor: =gblAppStyles.Checkbox.HoverBorderColor
+        HoverColor: =gblAppStyles.Checkbox.HoverColor
+        HoverFill: =gblAppStyles.Checkbox.HoverFill
+        PressedBorderColor: =gblAppStyles.Checkbox.PressedBorderColor
+        PressedColor: =gblAppStyles.Checkbox.PressedColor
+        PressedFill: =gblAppStyles.Checkbox.PressedFill
+        Text: ="Option 2"
+        X: =46
+        Y: =240
+        ZIndex: =8
+
+    lbl_2 As label:
+        BorderColor: =gblAppStyles.Label.BorderColor
+        BorderThickness: =gblAppStyles.Label.BorderThickness
+        Color: =gblAppStyles.Label.Color
+        DisabledBorderColor: =gblAppStyles.Label.DisabledBorderColor
+        DisabledColor: =gblAppStyles.Label.DisabledColor
+        DisabledFill: =gblAppStyles.Label.DisabledFill
+        Fill: =gblAppStyles.Label.Fill
+        FocusedBorderColor: =gblAppStyles.Label.FocusedBorderColor
+        FocusedBorderThickness: =gblAppStyles.Label.FocusedBorderThickness
+        Font: =Font.'Segoe UI'
+        Height: =32
+        HoverBorderColor: =gblAppStyles.Label.HoverBorderColor
+        HoverColor: =gblAppStyles.Label.HoverColor
+        HoverFill: =gblAppStyles.Label.HoverFill
+        PressedBorderColor: =gblAppStyles.Label.PressedBorderColor
+        PressedColor: =gblAppStyles.Label.PressedColor
+        PressedFill: =gblAppStyles.Label.PressedFill
+        Size: =14
+        Text: ="pick a theme"
+        Width: =208
+        X: =1123
+        Y: =6
+        ZIndex: =9
+
+    Toggle1 As toggleSwitch:
+        BorderColor: =gblAppStyles.Toggle.BorderColor
+        BorderThickness: =gblAppStyles.Toggle.BorderThickness
+        Color: =gblAppStyles.Toggle.Color
+        DisabledBorderColor: =gblAppStyles.Toggle.DisabledBorderColor
+        DisabledColor: =gblAppStyles.Toggle.DisabledColor
+        FalseFill: =White
+        FalseHoverFill: =gblAppStyles.Toggle.FalseHoverFill
+        FocusedBorderColor: =gblAppStyles.Toggle.FocusedBorderColor
+        Font: =Font.'Segoe UI'
+        HandleFill: =gblAppStyles.Toggle.HandleFillTrue
+        Height: =24
+        HoverBorderColor: =gblAppStyles.Toggle.HoverBorderColor
+        PressedBorderColor: =gblAppStyles.Toggle.PressedBorderColor
+        Size: =14
+        TrueFill: =gblAppStyles.Toggle.TrueFill
+        TrueHoverFill: =gblAppStyles.Toggle.TrueHoverFill
+        X: =46
+        Y: =358
+        ZIndex: =10
+
+    Slider1 As slider:
+        BorderColor: =gblAppStyles.Slider.BorderColor
+        DisabledBorderColor: =gblAppStyles.Slider.DisabledBorderColor
+        FocusedBorderColor: =gblAppStyles.Slider.FocusedBorderColor
+        HandleActiveFill: =gblAppStyles.Slider.HandleActiveFill
+        HandleFill: =gblAppStyles.Slider.HandleFill
+        HandleHoverFill: =gblAppStyles.Slider.HandleHoverFill
+        HoverBorderColor: =
+        RailFill: =gblAppStyles.Slider.RailFill
+        RailHoverFill: =gblAppStyles.Slider.RailHoverFill
+        ValueFill: =gblAppStyles.Slider.ValueFill
+        ValueHoverFill: =gblAppStyles.Slider.ValueHoverFill
+        X: =46
+        Y: =457
+        ZIndex: =11
+
+    Rating1 As rating:
+        BorderColor: =gblAppStyles.Rating.BorderColor
+        Default: =3
+        DisabledFill: =Self.Fill
+        DisplayMode: =DisplayMode.Edit
+        FocusedBorderColor: =Self.BorderColor
+        Height: =40
+        HoverFill: =Self.Fill
+        PressedFill: =Self.Fill
+        RatingFill: =gblAppStyles.Rating.RatingFill
+        Width: =200
+        X: =46
+        Y: =526
+        ZIndex: =12
+
+    Timer1 As timer:
+        BorderColor: =gblAppStyles.Timer.BorderColor
+        Color: =gblAppStyles.Timer.Color
+        X: =719
+        Y: =190
+        ZIndex: =13
 

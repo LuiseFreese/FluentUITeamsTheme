@@ -85,11 +85,11 @@
     "FileID": "5efc7e70-c518-4feb-bcd1-8016e6b57090",
     "Id": "8817538c-561d-4f78-bbec-c24c6d3ee147",
     "InstrumentationKey": "",
-    "Name": "FluentUI-Teams",
+    "Name": "FluentUI for Teams",
     "OriginatingVersion": "1.324"
   },
   "PublishInfo": {
-    "AppName": "FluentUI-Teams",
+    "AppName": "FluentUI for Teams",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",

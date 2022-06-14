@@ -1338,7 +1338,7 @@ Screen1 As screen:
         Y: =70
         ZIndex: =4
 
-    TextInput2 As text:
+    txt_1 As text:
         BorderColor: =gblAppStyles.TextInput.BorderColor
         BorderThickness: =gblAppStyles.TextInput.BorderThickness
         Color: =gblAppStyles.TextInput.Color

@@ -1,0 +1,891 @@
+{
+  "ComponentAllowCustomization": true,
+  "ComponentChangedSinceFileImport": true,
+  "ComponentDefinitionInfo": {
+    "AllowAccessToGlobals": false,
+    "Children": [
+      {
+        "AllowAccessToGlobals": true,
+        "Children": [],
+        "ControlPropertyState": [
+          "NavigateFields",
+          "Template",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "SearchItems",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          "MoreItemsButtonColor",
+          "DisplayFields",
+          "SearchFields",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "ComboBoxSample",
+            "InvariantPropertyName": "Items",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(255, 255, 255, 1)",
+            "InvariantPropertyName": "SelectionColor",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(255, 255, 255, 1)",
+            "InvariantPropertyName": "ChevronFill",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(255, 255, 255, 1)",
+            "InvariantPropertyName": "ChevronHoverFill",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(244, 244, 244, 1)",
+            "InvariantPropertyName": "ChevronDisabledFill",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(56, 96, 178, 1)",
+            "InvariantPropertyName": "ChevronBackground",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "ColorFade(RGBA(56, 96, 178, 1), -20%)",
+            "InvariantPropertyName": "ChevronHoverBackground",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(166, 166, 166, 1)",
+            "InvariantPropertyName": "ChevronDisabledBackground",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(56, 96, 178, 1)",
+            "InvariantPropertyName": "SelectionFill",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          "SelectionTagFill",
+          "SelectionTagColor",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(0, 0, 0, 1)",
+            "InvariantPropertyName": "Color",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(0, 0, 0, 1)",
+            "InvariantPropertyName": "HoverColor",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(255, 255, 255, 1)",
+            "InvariantPropertyName": "PressedColor",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(166, 166, 166, 1)",
+            "InvariantPropertyName": "DisabledColor",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(0, 18, 107, 1)",
+            "InvariantPropertyName": "BorderColor",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(166, 166, 166, 1)",
+            "InvariantPropertyName": "DisabledBorderColor",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "ColorFade(Self.BorderColor, 15%)",
+            "InvariantPropertyName": "HoverBorderColor",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "Self.HoverBorderColor",
+            "InvariantPropertyName": "PressedBorderColor",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          "BorderStyle",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "Self.BorderColor",
+            "InvariantPropertyName": "FocusedBorderColor",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(255, 255, 255, 1)",
+            "InvariantPropertyName": "Fill",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(244, 244, 244, 1)",
+            "InvariantPropertyName": "DisabledFill",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(0, 18, 107, 1)",
+            "InvariantPropertyName": "PressedFill",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(186, 202, 226, 1)",
+            "InvariantPropertyName": "HoverFill",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "Font.'Open Sans'",
+            "InvariantPropertyName": "Font",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          "FontWeight",
+          "X",
+          "Y",
+          "Width",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "36",
+            "InvariantPropertyName": "Height",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          "DisplayMode",
+          "ZIndex",
+          "BorderThickness",
+          "FocusedBorderThickness",
+          "Size",
+          "IsSearchable"
+        ],
+        "ControlUniqueId": "45",
+        "HasDynamicProperties": false,
+        "Index": 0,
+        "IsAutoGenerated": false,
+        "IsDataControl": false,
+        "IsFromScreenLayout": false,
+        "IsGroupControl": false,
+        "IsLocked": false,
+        "LayoutName": "",
+        "MetaDataIDKey": "",
+        "Name": "cmb_2",
+        "Parent": "cmp_Combobox",
+        "PersistMetaDataIDKey": false,
+        "PublishOrderIndex": 36,
+        "Rules": [
+          {
+            "Category": "Data",
+            "InvariantScript": "[\"combobox cmp\", \"item 1\", \"item 2\", \"item 3\"]",
+            "Property": "Items",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Data",
+            "InvariantScript": "[\"Value\"]",
+            "Property": "SearchFields",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Data",
+            "InvariantScript": "[\"Value\"]",
+            "Property": "DisplayFields",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Data",
+            "InvariantScript": "[]",
+            "Property": "NavigateFields",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Data",
+            "InvariantScript": "[]",
+            "Property": "SearchItems",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Data",
+            "InvariantScript": "false",
+            "Property": "IsSearchable",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "DisplayMode.Edit",
+            "Property": "DisplayMode",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "32",
+            "Property": "Height",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "13",
+            "Property": "Size",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "4",
+            "Property": "FocusedBorderThickness",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "214",
+            "Property": "Width",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "0",
+            "Property": "Y",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "0",
+            "Property": "X",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "FontWeight.Normal",
+            "Property": "FontWeight",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "Font.'Segoe UI'",
+            "Property": "Font",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.HoverFill",
+            "Property": "HoverFill",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.PressedFill",
+            "Property": "PressedFill",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.DisabledFill",
+            "Property": "DisabledFill",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.Fill",
+            "Property": "Fill",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.FocusedBorderColor",
+            "Property": "FocusedBorderColor",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "BorderStyle.Solid",
+            "Property": "BorderStyle",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "1",
+            "Property": "ZIndex",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "2",
+            "Property": "BorderThickness",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.PressedBorderColor",
+            "Property": "PressedBorderColor",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.HoverBorderColor",
+            "Property": "HoverBorderColor",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.DisabledBorderColor",
+            "Property": "DisabledBorderColor",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.BorderColor",
+            "Property": "BorderColor",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.DisabledColor",
+            "Property": "DisabledColor",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.PressedColor",
+            "Property": "PressedColor",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.HoverColor",
+            "Property": "HoverColor",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.Color",
+            "Property": "Color",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.SelectionFill",
+            "Property": "SelectionFill",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.ChevronDisabledBackground",
+            "Property": "ChevronDisabledBackground",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.ChevronHoverBackground",
+            "Property": "ChevronHoverBackground",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.ChevronBackground",
+            "Property": "ChevronBackground",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.ChevronDisabledFill",
+            "Property": "ChevronDisabledFill",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.ChevronHoverFill",
+            "Property": "ChevronHoverFill",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.ChevronFill",
+            "Property": "ChevronFill",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.ComboBoxStyles.SelectionColor",
+            "Property": "SelectionColor",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "ListItemTemplate.Single",
+            "Property": "Template",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "Self.HoverFill",
+            "Property": "SelectionTagFill",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "Self.HoverColor",
+            "Property": "SelectionTagColor",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "Self.ChevronBackground",
+            "Property": "MoreItemsButtonColor",
+            "RuleProviderType": "Unknown"
+          }
+        ],
+        "StyleName": "defaultComboBoxStyle",
+        "Template": {
+          "CustomGroupControlTemplateName": "",
+          "FirstParty": true,
+          "Id": "http://microsoft.com/appmagic/combobox",
+          "IsComponentDefinition": false,
+          "IsCustomGroupControlTemplate": false,
+          "IsPremiumPcfControl": false,
+          "LastModifiedTimestamp": "0",
+          "Name": "combobox",
+          "OverridableProperties": {},
+          "Version": "2.4.0"
+        },
+        "Type": "ControlInfo",
+        "VariantName": ""
+      },
+      {
+        "AllowAccessToGlobals": true,
+        "Children": [],
+        "ControlPropertyState": [
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(56, 96, 178, 1)",
+            "InvariantPropertyName": "Fill",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "Self.Fill",
+            "InvariantPropertyName": "DisabledFill",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          "PressedFill",
+          "HoverFill",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(0, 18, 107, 1)",
+            "InvariantPropertyName": "BorderColor",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          "BorderStyle",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "Self.BorderColor",
+            "InvariantPropertyName": "FocusedBorderColor",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          "DisplayMode",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "40",
+            "InvariantPropertyName": "X",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "113",
+            "InvariantPropertyName": "Y",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "150",
+            "InvariantPropertyName": "Width",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "Height",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          "ZIndex",
+          "BorderThickness",
+          "FocusedBorderThickness"
+        ],
+        "ControlUniqueId": "44",
+        "HasDynamicProperties": false,
+        "Index": 0,
+        "IsAutoGenerated": false,
+        "IsDataControl": false,
+        "IsFromScreenLayout": false,
+        "IsGroupControl": false,
+        "IsLocked": false,
+        "LayoutName": "",
+        "MetaDataIDKey": "",
+        "Name": "rec_Underline_2",
+        "Parent": "cmp_Combobox",
+        "PersistMetaDataIDKey": false,
+        "PublishOrderIndex": 37,
+        "Rules": [
+          {
+            "Category": "Design",
+            "InvariantScript": "2",
+            "Property": "Height",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmb_2.X",
+            "Property": "X",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "2",
+            "Property": "FocusedBorderThickness",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "0",
+            "Property": "BorderThickness",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmb_2.Width",
+            "Property": "Width",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "DisplayMode.Edit",
+            "Property": "DisplayMode",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "",
+            "Property": "FocusedBorderColor",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "BorderStyle.Solid",
+            "Property": "BorderStyle",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.RectangleStyles.BorderColor",
+            "Property": "BorderColor",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "2",
+            "Property": "ZIndex",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.RectangleStyles.DisabledFill",
+            "Property": "DisabledFill",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmp_Combobox.RectangleStyles.Fill",
+            "Property": "Fill",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "cmb_2.Y+cmb_2.Height-Self.Height",
+            "Property": "Y",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "Self.Fill",
+            "Property": "HoverFill",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Design",
+            "InvariantScript": "Self.Fill",
+            "Property": "PressedFill",
+            "RuleProviderType": "Unknown"
+          }
+        ],
+        "StyleName": "defaultRectangleStyle",
+        "Template": {
+          "CustomGroupControlTemplateName": "",
+          "FirstParty": true,
+          "Id": "http://microsoft.com/appmagic/shapes/rectangle",
+          "IsComponentDefinition": false,
+          "IsCustomGroupControlTemplate": false,
+          "IsPremiumPcfControl": false,
+          "LastModifiedTimestamp": "0",
+          "Name": "rectangle",
+          "OverridableProperties": {},
+          "Version": "2.3.0"
+        },
+        "Type": "ControlInfo",
+        "VariantName": ""
+      }
+    ],
+    "ControlPropertyState": [
+      "Fill",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Height",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Width",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "X",
+      "Y",
+      "ZIndex",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "{BorderColor: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.NeutralWebWhite,\r\n                        gblThemeDark,\r\n                        gblAppColors.OverlayTransparent,\r\n                        gblAppColors.OverlayTransparent\r\n                    ),\r\n                    BorderThickness: If(\r\n                        gblThemeHiCo,\r\n                        1,\r\n                        gblThemeDark,\r\n                        0,\r\n                        0\r\n                    ),\r\n                    Color: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.NeutralWebWhite,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebWhite,\r\n                        gblAppColors.NeutralWebGray180\r\n                    ),\r\n                    DisabledBorderColor: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastDisabled,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray80,\r\n                        gblAppColors.NeutralWebGray80\r\n                    ),\r\n                    DisabledColor: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.NeutralWebBlack,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray130,\r\n                        gblAppColors.NeutralWebGray130\r\n                    ),\r\n                    DisabledFill: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastDisabled,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray150,\r\n                        gblAppColors.NeutralWebGray30\r\n                    ),\r\n                    Fill: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.NeutralWebBlack,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray220,\r\n                        gblAppColors.NeutralWebWhite\r\n                    ),\r\n                    FocusedBorderColor: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastSelectedBackground,\r\n                        gblThemeDark,\r\n                        gblAppColors.TeamsDefaultPrimary,\r\n                        gblAppColors.TeamsDefaultPrimary\r\n                    ),\r\n                    FocusedBorderThickness: If(\r\n                        gblThemeHiCo,\r\n                        1,\r\n                        gblThemeDark,\r\n                        1,\r\n                        1\r\n                    ),\r\n                    HoverBorderColor: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastSelectedBackground,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray140,\r\n                        gblAppColors.NeutralWebGray40\r\n                    ),\r\n                    HoverColor: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.NeutralWebWhite,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebWhite,\r\n                        gblAppColors.NeutralWebGray190\r\n                    ),\r\n                    HoverFill: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.NeutralWebBlack,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray140,\r\n                        gblAppColors.NeutralWebGray40\r\n                    ),\r\n                    PressedBorderColor: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastSelectedBackground,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray120,\r\n                        gblAppColors.NeutralWebGray60\r\n                    ),\r\n                    PressedColor: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.NeutralWebBlack,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebWhite,\r\n                        gblAppColors.NeutralWebGray190\r\n                    ),\r\n                    PressedFill: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastSelectedBackground,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray120,\r\n                        gblAppColors.NeutralWebGray60\r\n                    ),\r\n                    Radius: 3,\r\n                    Height: 32,\r\n                    Width: 208\r\n                }",
+        "InvariantPropertyName": "TextInputStyles",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "{\n    BorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastHyperlinks,\n        gblThemeDark,\n        gblAppColors.TeamsDarkTint10,\n        gblAppColors.TeamsDefaultPrimary\n    ),\n    BorderThickness: If(\n        gblThemeHiCo,\n        4,\n        gblThemeDark,\n        0,\n        0\n    ),\n    Color: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastHyperlinks,\n        gblThemeDark,\n        gblAppColors.NeutralWebWhite,\n        gblAppColors.NeutralWebWhite\n    ),\n    DisabledBorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastDisabled,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray150,\n        gblAppColors.NeutralWebGray30\n    ),\n    DisabledColor: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebBlack,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray130,\n        gblAppColors.NeutralWebGray60\n    ),\n    DisabledFill: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastDisabled,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray150,\n        gblAppColors.NeutralWebGray30\n    ),\n    Fill: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebBlack,\n        gblThemeDark,\n        gblAppColors.TeamsDarkTint10,\n        gblAppColors.TeamsDefaultPrimary\n    ),\n    FocusedBorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastSelectedBackground,\n        gblThemeDark,\n        gblAppColors.TeamsDarkShade20,\n        gblAppColors.NeutralMobileBlack\n    ),\n    FocusedBorderThickness: If(\n        gblThemeHiCo,\n        3,\n        gblThemeDark,\n        2.5,\n        2.5\n    ),\n    HoverBorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastHyperlinks,\n        gblThemeDark,\n        gblAppColors.TeamsDefaultTint10,\n        gblAppColors.TeamsDefaultShade10\n    ),\n    HoverColor: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebBlack,\n        gblThemeDark,\n        gblAppColors.NeutralWebWhite,\n        gblAppColors.NeutralWebWhite\n    ),\n    HoverFill: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastHyperlinks,\n        gblThemeDark,\n        gblAppColors.TeamsDefaultTint10,\n        gblAppColors.TeamsDefaultShade10\n    ),\n    PressedBorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastSelectedBackground,\n        gblThemeDark,\n        gblAppColors.TeamsDefaultShade10,\n        gblAppColors.TeamsDefaultShade20\n    ),\n    PressedColor: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebBlack,\n        gblThemeDark,\n        gblAppColors.NeutralWebWhite,\n        gblAppColors.NeutralWebWhite\n    ),\n    PressedFill: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastSelectedBackground,\n        gblThemeDark,\n        gblAppColors.TeamsDefaultShade10,\n        gblAppColors.TeamsDefaultShade20\n    )\n}",
+        "InvariantPropertyName": "RectangleStyles",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "{\r\n                    BorderColor: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.NeutralWebWhite,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray180,\r\n                        gblAppColors.NeutralWebWhite\r\n                    ),\r\n                    BorderThickness: If(\r\n                        gblThemeHiCo,\r\n                        1,\r\n                        gblThemeDark,\r\n                        1,\r\n                        1\r\n                    ),\r\n                    ChevronBackground: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.NeutralWebBlack,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray220,\r\n                        gblAppColors.NeutralWebWhite\r\n                    ),\r\n                    ChevronDisabledBackground: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastDisabled,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray130,\r\n                        gblAppColors.NeutralWebGray130\r\n                    ),\r\n                    ChevronDisabledFill: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastBackground,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray80,\r\n                        gblAppColors.NeutralWebGray80\r\n                    ),\r\n                    ChevronFill: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastHyperlinks,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebWhite10,\r\n                        gblAppColors.NeutralWebGray130\r\n                    ),\r\n                    ChevronHoverBackground: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.NeutralWebBlack,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray200,\r\n                        gblAppColors.NeutralWebWhite\r\n                    ),\r\n                    ChevronHoverFill: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastHyperlinks,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebWhite,\r\n                        gblAppColors.NeutralWebGray130\r\n                    ),\r\n                    Color: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastSelectedBackground,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebWhite,\r\n                        gblAppColors.NeutralWebGray130\r\n                    ),\r\n                    DisabledBorderColor: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastDisabled,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray80,\r\n                        gblAppColors.NeutralWebGray80\r\n                    ),\r\n                    DisabledColor: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastDisabled,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray130,\r\n                        gblAppColors.NeutralWebGray130\r\n                    ),\r\n                    DisabledFill: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastDisabled,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray150,\r\n                        gblAppColors.NeutralWebGray30\r\n                    ),\r\n                    Fill: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.NeutralWebBlack,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray220,\r\n                        gblAppColors.NeutralWebWhite\r\n                    ),\r\n                    FocusedBorderColor: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastSelectedBackground,\r\n                        gblThemeDark,\r\n                        gblAppColors.TeamsDefaultPrimary,\r\n                        gblAppColors.TeamsDefaultPrimary\r\n                    ),\r\n                    FocusedBorderThickness: If(\r\n                        gblThemeHiCo,\r\n                        1,\r\n                        gblThemeDark,\r\n                        1,\r\n                        1\r\n                    ),\r\n                    HoverBorderColor: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastHyperlinks,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray180,\r\n                        gblAppColors.NeutralWebWhite\r\n                    ),\r\n                    HoverColor: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastHyperlinks,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebWhite,\r\n                        gblAppColors.NeutralWebGray130\r\n                    ),\r\n                    HoverFill: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastBackground,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray150,\r\n                        gblAppColors.NeutralWebGray30\r\n                    ),\r\n                    PressedBorderColor: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastHyperlinks,\r\n                        gblThemeDark,\r\n                        gblAppColors.TeamsDefaultPrimary,\r\n                        gblAppColors.TeamsDefaultPrimary\r\n                    ),\r\n                    PressedColor: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.NeutralWebWhite,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebWhite,\r\n                        gblAppColors.NeutralWebGray130\r\n                    ),\r\n                    PressedFill: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastBackground,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray180,\r\n                        gblAppColors.NeutralWebWhite\r\n                    ),\r\n                    SelectionColor: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastBackground,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebWhite,\r\n                        gblAppColors.NeutralWebGray190\r\n                    ),\r\n                    SelectionFill: If(\r\n                        gblThemeHiCo,\r\n                        gblAppColors.HighContrastSelectedBackground,\r\n                        gblThemeDark,\r\n                        gblAppColors.NeutralWebGray120,\r\n                        gblAppColors.NeutralWebGray60\r\n                    ),\r\n                    Height: 32\r\n                }",
+        "InvariantPropertyName": "DropdownStyles",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "ComboBoxStyles"
+    ],
+    "LastModifiedTimestamp": "637908294466017615",
+    "Name": "cmp_Combobox",
+    "Rules": [
+      {
+        "Category": "Data",
+        "InvariantScript": "{\n    BorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebWhite,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray180,\n        gblAppColors.NeutralWebWhite\n    ),\n    BorderThickness: If(\n        gblThemeHiCo,\n        1,\n        gblThemeDark,\n        1,\n        1\n    ),\n    ChevronBackground: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebBlack,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray220,\n        gblAppColors.NeutralWebWhite\n    ),\n    ChevronDisabledBackground: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastDisabled,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray130,\n        gblAppColors.NeutralWebGray130\n    ),\n    ChevronDisabledFill: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastBackground,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray80,\n        gblAppColors.NeutralWebGray80\n    ),\n    ChevronFill: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastHyperlinks,\n        gblThemeDark,\n        gblAppColors.NeutralWebWhite10,\n        gblAppColors.NeutralWebGray130\n    ),\n    ChevronHoverBackground: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebBlack,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray200,\n        gblAppColors.NeutralWebWhite\n    ),\n    ChevronHoverFill: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastHyperlinks,\n        gblThemeDark,\n        gblAppColors.NeutralWebWhite,\n        gblAppColors.NeutralWebGray130\n    ),\n    Color: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastSelectedBackground,\n        gblThemeDark,\n        gblAppColors.NeutralWebWhite,\n        gblAppColors.NeutralWebGray130\n    ),\n    DisabledBorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastDisabled,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray80,\n        gblAppColors.NeutralWebGray80\n    ),\n    DisabledColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastDisabled,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray130,\n        gblAppColors.NeutralWebGray130\n    ),\n    DisabledFill: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastDisabled,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray150,\n        gblAppColors.NeutralWebGray30\n    ),\n    Fill: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebBlack,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray220,\n        gblAppColors.NeutralWebWhite\n    ),\n    FocusedBorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastSelectedBackground,\n        gblThemeDark,\n        gblAppColors.TeamsDefaultPrimary,\n        gblAppColors.TeamsDefaultPrimary\n    ),\n    FocusedBorderThickness: If(\n        gblThemeHiCo,\n        1,\n        gblThemeDark,\n        1,\n        1\n    ),\n    HoverBorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastHyperlinks,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray180,\n        gblAppColors.NeutralWebWhite\n    ),\n    HoverColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastHyperlinks,\n        gblThemeDark,\n        gblAppColors.NeutralWebWhite,\n        gblAppColors.NeutralWebGray130\n    ),\n    HoverFill: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastBackground,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray150,\n        gblAppColors.NeutralWebGray30\n    ),\n    PressedBorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastHyperlinks,\n        gblThemeDark,\n        gblAppColors.TeamsDefaultPrimary,\n        gblAppColors.TeamsDefaultPrimary\n    ),\n    PressedColor: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebWhite,\n        gblThemeDark,\n        gblAppColors.NeutralWebWhite,\n        gblAppColors.NeutralWebGray130\n    ),\n    PressedFill: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastBackground,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray180,\n        gblAppColors.NeutralWebWhite\n    ),\n    SelectionColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastBackground,\n        gblThemeDark,\n        gblAppColors.NeutralWebWhite,\n        gblAppColors.NeutralWebGray190\n    ),\n    SelectionFill: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastSelectedBackground,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray120,\n        gblAppColors.NeutralWebGray60\n    ),\n    Height: 32\n}",
+        "Property": "DropdownStyles",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Data",
+        "InvariantScript": "{\n    BorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastHyperlinks,\n        gblThemeDark,\n        gblAppColors.TeamsDarkTint10,\n        gblAppColors.TeamsDefaultPrimary\n    ),\n    BorderThickness: If(\n        gblThemeHiCo,\n        2,\n        gblThemeDark,\n        0,\n        0\n    ),\n    Color: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastHyperlinks,\n        gblThemeDark,\n        gblAppColors.NeutralWebWhite,\n        gblAppColors.NeutralWebWhite\n    ),\n    DisabledBorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastDisabled,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray150,\n        gblAppColors.NeutralWebGray30\n    ),\n    DisabledColor: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebBlack,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray130,\n        gblAppColors.NeutralWebGray60\n    ),\n    DisabledFill: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastDisabled,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray150,\n        gblAppColors.NeutralWebGray30\n    ),\n    Fill: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebBlack,\n        gblThemeDark,\n        gblAppColors.TeamsDarkTint10,\n        gblAppColors.TeamsDefaultPrimary\n    ),\n    FocusedBorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastSelectedBackground,\n        gblThemeDark,\n        gblAppColors.TeamsDarkShade20,\n        gblAppColors.NeutralMobileBlack\n    ),\n    FocusedBorderThickness: If(\n        gblThemeHiCo,\n        3,\n        gblThemeDark,\n        2.5,\n        2.5\n    ),\n    HoverBorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastHyperlinks,\n        gblThemeDark,\n        gblAppColors.TeamsDefaultTint10,\n        gblAppColors.TeamsDefaultShade10\n    ),\n    HoverColor: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebBlack,\n        gblThemeDark,\n        gblAppColors.NeutralWebWhite,\n        gblAppColors.NeutralWebWhite\n    ),\n    HoverFill: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastHyperlinks,\n        gblThemeDark,\n        gblAppColors.TeamsDefaultTint10,\n        gblAppColors.TeamsDefaultShade10\n    ),\n    PressedBorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastSelectedBackground,\n        gblThemeDark,\n        gblAppColors.TeamsDefaultShade10,\n        gblAppColors.TeamsDefaultShade20\n    ),\n    PressedColor: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebBlack,\n        gblThemeDark,\n        gblAppColors.NeutralWebWhite,\n        gblAppColors.NeutralWebWhite\n    ),\n    PressedFill: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastSelectedBackground,\n        gblThemeDark,\n        gblAppColors.TeamsDefaultShade10,\n        gblAppColors.TeamsDefaultShade20\n    )\n}",
+        "Property": "RectangleStyles",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Data",
+        "InvariantScript": "{\n    BorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastHyperlinks,\n        gblThemeDark,\n        gblAppColors.OverlayTransparent,\n        gblAppColors.OverlayTransparent\n    ),\n    BorderThickness: If(\n        gblThemeHiCo,\n        4,\n        gblThemeDark,\n        0,\n        0\n    ),\n    Color: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebWhite,\n        gblThemeDark,\n        gblAppColors.NeutralWebWhite,\n        gblAppColors.NeutralWebGray180\n    ),\n    DisabledBorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastDisabled,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray80,\n        gblAppColors.NeutralWebGray80\n    ),\n    DisabledColor: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebBlack,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray130,\n        gblAppColors.NeutralWebGray130\n    ),\n    DisabledFill: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastDisabled,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray150,\n        gblAppColors.NeutralWebGray30\n    ),\n    Fill: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebBlack,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray220,\n        gblAppColors.NeutralWebWhite\n    ),\n    FocusedBorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastSelectedBackground,\n        gblThemeDark,\n        gblAppColors.TeamsDefaultPrimary,\n        gblAppColors.TeamsDefaultPrimary\n    ),\n    FocusedBorderThickness: If(\n        gblThemeHiCo,\n        1,\n        gblThemeDark,\n        1,\n        1\n    ),\n    HoverBorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastSelectedBackground,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray140,\n        gblAppColors.NeutralWebGray40\n    ),\n    HoverColor: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebWhite,\n        gblThemeDark,\n        gblAppColors.NeutralWebWhite,\n        gblAppColors.NeutralWebGray190\n    ),\n    HoverFill: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebBlack,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray140,\n        gblAppColors.NeutralWebGray40\n    ),\n    PressedBorderColor: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastSelectedBackground,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray120,\n        gblAppColors.NeutralWebGray60\n    ),\n    PressedColor: If(\n        gblThemeHiCo,\n        gblAppColors.NeutralWebBlack,\n        gblThemeDark,\n        gblAppColors.NeutralWebWhite,\n        gblAppColors.NeutralWebGray190\n    ),\n    PressedFill: If(\n        gblThemeHiCo,\n        gblAppColors.HighContrastSelectedBackground,\n        gblThemeDark,\n        gblAppColors.NeutralWebGray120,\n        gblAppColors.NeutralWebGray60\n    ),\n    Radius: 3,\n    Height: 32,\n    Width: 208\n}",
+        "Property": "TextInputStyles",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Data",
+        "InvariantScript": "{\r\n    BorderColor: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.NeutralWebWhite,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebGray180,\r\n        gblAppColors.NeutralWebWhite\r\n    ),\r\n    BorderThickness: If(\r\n        gblThemeHiCo,\r\n        1,\r\n        gblThemeDark,\r\n        1,\r\n        1\r\n    ),\r\n    ChevronBackground: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.NeutralWebBlack,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebGray220,\r\n        gblAppColors.NeutralWebWhite\r\n    ),\r\n    ChevronDisabledBackground: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.HighContrastDisabled,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebGray130,\r\n        gblAppColors.NeutralWebGray130\r\n    ),\r\n    ChevronDisabledFill: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.HighContrastBackground,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebGray80,\r\n        gblAppColors.NeutralWebGray80\r\n    ),\r\n    ChevronFill: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.HighContrastHyperlinks,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebWhite10,\r\n        gblAppColors.NeutralWebGray130\r\n    ),\r\n    ChevronHoverBackground: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.NeutralWebBlack,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebGray200,\r\n        gblAppColors.NeutralWebWhite\r\n    ),\r\n    ChevronHoverFill: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.HighContrastHyperlinks,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebWhite,\r\n        gblAppColors.NeutralWebGray130\r\n    ),\r\n    Color: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.HighContrastSelectedBackground,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebWhite,\r\n        gblAppColors.NeutralWebGray130\r\n    ),\r\n    DisabledBorderColor: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.HighContrastDisabled,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebGray80,\r\n        gblAppColors.NeutralWebGray80\r\n    ),\r\n    DisabledColor: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.HighContrastDisabled,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebGray130,\r\n        gblAppColors.NeutralWebGray130\r\n    ),\r\n    DisabledFill: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.HighContrastDisabled,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebGray150,\r\n        gblAppColors.NeutralWebGray30\r\n    ),\r\n    Fill: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.NeutralWebBlack,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebGray220,\r\n        gblAppColors.NeutralWebWhite\r\n    ),\r\n    FocusedBorderColor: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.HighContrastSelectedBackground,\r\n        gblThemeDark,\r\n        gblAppColors.TeamsDefaultPrimary,\r\n        gblAppColors.TeamsDefaultPrimary\r\n    ),\r\n    FocusedBorderThickness: If(\r\n        gblThemeHiCo,\r\n        1,\r\n        gblThemeDark,\r\n        1,\r\n        1\r\n    ),\r\n    HoverBorderColor: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.HighContrastHyperlinks,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebGray180,\r\n        gblAppColors.NeutralWebWhite\r\n    ),\r\n    HoverColor: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.HighContrastHyperlinks,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebWhite,\r\n        gblAppColors.NeutralWebGray130\r\n    ),\r\n    HoverFill: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.HighContrastBackground,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebGray150,\r\n        gblAppColors.NeutralWebGray30\r\n    ),\r\n    PressedBorderColor: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.HighContrastHyperlinks,\r\n        gblThemeDark,\r\n        gblAppColors.TeamsDefaultPrimary,\r\n        gblAppColors.TeamsDefaultPrimary\r\n    ),\r\n    PressedColor: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.NeutralWebWhite,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebWhite,\r\n        gblAppColors.NeutralWebGray130\r\n    ),\r\n    PressedFill: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.HighContrastBackground,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebGray180,\r\n        gblAppColors.NeutralWebWhite\r\n    ),\r\n    SelectionColor: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.HighContrastBackground,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebWhite,\r\n        gblAppColors.NeutralWebGray190\r\n    ),\r\n    SelectionFill: If(\r\n        gblThemeHiCo,\r\n        gblAppColors.HighContrastSelectedBackground,\r\n        gblThemeDark,\r\n        gblAppColors.NeutralWebGray120,\r\n        gblAppColors.NeutralWebGray60\r\n    ),\r\n    Height: 32\r\n}",
+        "Property": "ComboBoxStyles",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Design",
+        "InvariantScript": "214",
+        "Property": "Width",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Design",
+        "InvariantScript": "34",
+        "Property": "Height",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Design",
+        "InvariantScript": "RGBA(0, 0, 0, 0)",
+        "Property": "Fill",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Design",
+        "InvariantScript": "1",
+        "Property": "ZIndex",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Design",
+        "InvariantScript": "0",
+        "Property": "Y",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Design",
+        "InvariantScript": "0",
+        "Property": "X",
+        "RuleProviderType": "System"
+      }
+    ]
+  },
+  "ComponentManifest": {
+    "AllowAccessToGlobals": false,
+    "AllowCustomization": true,
+    "Description": "",
+    "Name": "cmp_Combobox",
+    "TemplateGuid": "be0c682edb8949baa34baa89b033c300"
+  },
+  "ComponentType": "CanvasComponent",
+  "CustomGroupControlTemplateName": "",
+  "CustomProperties": [
+    {
+      "Category": 0,
+      "DisplayName": "TextInputStyles",
+      "Hidden": false,
+      "Name": "TextInputStyles",
+      "PropertyDataTypeKey": "Record",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.324\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Record\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"BorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"BorderThickness\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Color\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"DisabledBorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"DisabledColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"DisabledFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"FocusedBorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"FocusedBorderThickness\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Height\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"HoverBorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"HoverColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"HoverFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"PressedBorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"PressedColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"PressedFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Radius\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Width\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "RectangleStyles",
+      "Hidden": false,
+      "Name": "RectangleStyles",
+      "PropertyDataTypeKey": "Record",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.324\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Record\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"BorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"BorderThickness\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Color\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"DisabledBorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"DisabledColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"DisabledFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"FocusedBorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"FocusedBorderThickness\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"HoverBorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"HoverColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"HoverFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"PressedBorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"PressedColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"PressedFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "DropdownStyles",
+      "Hidden": false,
+      "Name": "DropdownStyles",
+      "PropertyDataTypeKey": "Record",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.324\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Record\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"BorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"BorderThickness\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ChevronBackground\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ChevronDisabledBackground\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ChevronDisabledFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ChevronFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ChevronHoverBackground\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ChevronHoverFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Color\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"DisabledBorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"DisabledColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"DisabledFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"FocusedBorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"FocusedBorderThickness\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Height\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"HoverBorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"HoverColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"HoverFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"PressedBorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"PressedColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"PressedFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SelectionColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SelectionFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "ComboBoxStyles",
+      "Hidden": false,
+      "Name": "ComboBoxStyles",
+      "PropertyDataTypeKey": "Record",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.324\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Record\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"BorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"BorderThickness\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ChevronBackground\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ChevronDisabledBackground\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ChevronDisabledFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ChevronFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ChevronHoverBackground\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ChevronHoverFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Color\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"DisabledBorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"DisabledColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"DisabledFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"FocusedBorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"FocusedBorderThickness\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Height\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"HoverBorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"HoverColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"HoverFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"PressedBorderColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"PressedColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"PressedFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SelectionColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SelectionFill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}]}}"
+    }
+  ],
+  "FirstParty": true,
+  "Id": "http://microsoft.com/appmagic/Component",
+  "IsComponentLocked": false,
+  "IsComponentTemplate": true,
+  "IsCustomGroupControlTemplate": false,
+  "IsPcfControl": false,
+  "IsPremiumPcfControl": false,
+  "IsWidgetTemplate": false,
+  "LastModifiedTimestamp": "637908294466017615",
+  "Name": "be0c682edb8949baa34baa89b033c300",
+  "OverridableProperties": {},
+  "TemplateOriginalName": "74fab40775894d948e8bb2035020f02d",
+  "Version": "637908224319620559"
+}

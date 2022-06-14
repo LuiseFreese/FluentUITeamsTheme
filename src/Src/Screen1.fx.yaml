@@ -4,7 +4,7 @@ Screen1 As screen:
     drp_Theme As dropdown:
         BorderColor: =gblAppStyles.Dropdown.BorderColor
         BorderThickness: =gblAppStyles.Dropdown.BorderThickness
-        ChevronBackground: =gblAppStyles.Dropdown.BorderColor
+        ChevronBackground: =gblAppStyles.Dropdown.ChevronBackground
         ChevronDisabledBackground: =gblAppStyles.Dropdown.ChevronDisabledBackground
         ChevronDisabledFill: =gblAppStyles.Dropdown.ChevronDisabledFill
         ChevronFill: =gblAppStyles.Dropdown.ChevronFill
@@ -17,8 +17,13 @@ Screen1 As screen:
         Fill: =gblAppStyles.Dropdown.Fill
         FocusedBorderColor: =gblAppStyles.Dropdown.FocusedBorderColor
         Font: =Font.'Segoe UI'
+        Height: |
+            =gblAppStyles.Dropdown.Height
+        HoverBorderColor: =gblAppStyles.Dropdown.HoverBorderColor
+        HoverColor: =gblAppStyles.Dropdown.HoverColor
+        HoverFill: =gblAppStyles.Dropdown.HoverFill
         Items: =["default", "dark", "high contrast"]
-        OnChange: |
+        OnChange: |-
             =Set(
                 gblThemeDark,
                 Param("theme") = "dark" Or drp_Theme.SelectedText.Value = "dark"
@@ -907,8 +912,9 @@ Screen1 As screen:
                             gblThemeDark,
                             gblAppColors.NeutralWebGray120,
                             gblAppColors.NeutralWebGray60
-                        )/*,
-                        Size: gblAppSizes.Font.Medium*/
+                        ),
+                        Height: 32,
+                        Width: 208
                     },
                     Label: {
                         BorderColor: If(
@@ -980,7 +986,8 @@ Screen1 As screen:
                             gblAppColors.NeutralWebGray150
                         ),
                         PressedFill: Transparent,
-                        Height: 32
+                        Height: 32,
+                        Width: 208
                     },
                     HTML: {
                         BorderColor: If(
@@ -1115,7 +1122,9 @@ Screen1 As screen:
                             gblAppColors.NeutralWebGray120,
                             gblAppColors.NeutralWebGray60
                         ),
-                        Radius: 4
+                        Radius: 3,
+                        Height: 32,
+                        Width: 208
                     },
                     Toggle: {
                         BorderColor: If(
@@ -1227,6 +1236,12 @@ Screen1 As screen:
                     }
                 }
             );
+        PressedBorderColor: =gblAppStyles.Dropdown.PressedBorderColor
+        PressedColor: =gblAppStyles.Dropdown.PressedColor
+        PressedFill: =gblAppStyles.Dropdown.PressedFill
+        SelectionColor: =gblAppStyles.Dropdown.SelectionColor
+        SelectionFill: =gblAppStyles.Dropdown.SelectionFill
+        Width: =300
         X: =1005
         Y: =30
         ZIndex: =1
@@ -1261,7 +1276,7 @@ Screen1 As screen:
         Size: =14
         Text: ="primary"
         Width: =100
-        X: =37
+        X: =40
         Y: =70
         ZIndex: =2
 
@@ -1285,6 +1300,7 @@ Screen1 As screen:
         PressedFill: =gblAppStyles.Label.PressedFill
         Size: =14
         Text: ="Textlabel"
+        Width: =100
         X: =37
         Y: =142
         ZIndex: =3
@@ -1334,6 +1350,7 @@ Screen1 As screen:
         FocusedBorderColor: =gblAppStyles.TextInput.FocusedBorderColor
         FocusedBorderThickness: =gblAppStyles.TextInput.FocusedBorderThickness
         Font: =Font.'Segoe UI'
+        Height: =gblAppStyles.TextInput.Height
         HoverBorderColor: =gblAppStyles.TextInput.HoverBorderColor
         HoverColor: =gblAppStyles.TextInput.HoverColor
         HoverFill: =gblAppStyles.TextInput.HoverFill
@@ -1348,4 +1365,11 @@ Screen1 As screen:
         X: =34
         Y: =200
         ZIndex: =5
+
+    ComboBox1 As combobox:
+        Items: =ComboBoxSample
+        SearchItems: =Search(ComboBoxSample,ComboBox1.SearchText,"Value1")
+        X: =977
+        Y: =82
+        ZIndex: =6
 

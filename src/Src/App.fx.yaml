@@ -966,8 +966,9 @@ App As appinfo:
                         gblThemeDark,
                         gblAppColors.NeutralWebGray120,
                         gblAppColors.NeutralWebGray60
-                    )/*,
-                    Size: gblAppSizes.Font.Medium*/
+                    ),
+                    Height: 32,
+                    Width: 208
                 },
                 Label: {
                     BorderColor: If(
@@ -1039,7 +1040,8 @@ App As appinfo:
                         gblAppColors.NeutralWebGray150
                     ),
                     PressedFill: Transparent,
-                    Height: 32
+                    Height: 32,
+                    Width: 208
                 },
                 HTML: {
                     BorderColor: If(
@@ -1174,7 +1176,9 @@ App As appinfo:
                         gblAppColors.NeutralWebGray120,
                         gblAppColors.NeutralWebGray60
                     ),
-                    Radius: 3
+                    Radius: 3,
+                    Height: 32,
+                    Width: 208
                 },
                 Toggle: {
                     BorderColor: If(

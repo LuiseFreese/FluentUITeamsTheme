@@ -967,12 +967,7 @@ App As appinfo:
                         gblAppColors.NeutralWebGray120,
                         gblAppColors.NeutralWebGray60
                     ),
-<<<<<<< HEAD
                     Height: 32
-=======
-                    Height: 32,
-                    Width: 208
->>>>>>> da0a57bf3cf498a54c2b07ac541366d74d6f8245
                 },
                 Label: {
                     BorderColor: If(

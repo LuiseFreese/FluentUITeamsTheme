@@ -1467,7 +1467,6 @@ App As appinfo:
                         gblAppColors.OverlayTransparent,
                         gblAppColors.OverlayTransparent
                     ),
-                    //Size: gblAppSizes.Font.Medium,
                     TrueFill: If(
                         gblThemeHiCo,
                         gblAppColors.HighContrastSelectedBackground,

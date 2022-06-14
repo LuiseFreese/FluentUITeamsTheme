@@ -1367,8 +1367,34 @@ Screen1 As screen:
         ZIndex: =5
 
     ComboBox1 As combobox:
+        BorderColor: =gblAppStyles.Dropdown.BorderColor
+        BorderThickness: =gblAppStyles.Dropdown.BorderThickness
+        ChevronBackground: =gblAppStyles.Dropdown.ChevronBackground
+        ChevronDisabledBackground: =gblAppStyles.Dropdown.ChevronDisabledBackground
+        ChevronDisabledFill: =gblAppStyles.Dropdown.ChevronDisabledFill
+        ChevronFill: =gblAppStyles.Dropdown.ChevronFill
+        ChevronHoverBackground: =gblAppStyles.Dropdown.ChevronHoverBackground
+        ChevronHoverFill: =gblAppStyles.Dropdown.ChevronHoverFill
+        Color: =gblAppStyles.Dropdown.Color
+        DisabledBorderColor: =gblAppStyles.Dropdown.DisabledBorderColor
+        DisabledColor: =gblAppStyles.Dropdown.DisabledColor
+        DisabledFill: =gblAppStyles.Dropdown.DisabledFill
+        Fill: =gblAppStyles.Dropdown.Fill
+        FocusedBorderColor: =gblAppStyles.Dropdown.FocusedBorderColor
+        Font: =Font.'Segoe UI'
+        Height: |
+            =gblAppStyles.Dropdown.Height
+        HoverBorderColor: =gblAppStyles.Dropdown.HoverBorderColor
+        HoverColor: =gblAppStyles.Dropdown.HoverColor
+        HoverFill: =gblAppStyles.Dropdown.HoverFill
         Items: =ComboBoxSample
+        PressedBorderColor: =gblAppStyles.Dropdown.PressedBorderColor
+        PressedColor: =gblAppStyles.Dropdown.PressedColor
+        PressedFill: =gblAppStyles.Dropdown.PressedFill
         SearchItems: =Search(ComboBoxSample,ComboBox1.SearchText,"Value1")
+        SelectionColor: =gblAppStyles.Dropdown.SelectionColor
+        SelectionFill: =gblAppStyles.Dropdown.SelectionFill
+        Width: =300
         X: =977
         Y: =82
         ZIndex: =6

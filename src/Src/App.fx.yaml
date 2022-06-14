@@ -1174,7 +1174,7 @@ App As appinfo:
                         gblAppColors.NeutralWebGray120,
                         gblAppColors.NeutralWebGray60
                     ),
-                    Radius: 4
+                    Radius: 3
                 },
                 Toggle: {
                     BorderColor: If(

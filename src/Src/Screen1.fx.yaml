@@ -2,6 +2,21 @@ Screen1 As screen:
     Fill: =gblAppStyles.Background.Fill
 
     drp_Theme As dropdown:
+        BorderColor: =gblAppStyles.Dropdown.BorderColor
+        BorderThickness: =gblAppStyles.Dropdown.BorderThickness
+        ChevronBackground: =gblAppStyles.Dropdown.BorderColor
+        ChevronDisabledBackground: =gblAppStyles.Dropdown.ChevronDisabledBackground
+        ChevronDisabledFill: =gblAppStyles.Dropdown.ChevronDisabledFill
+        ChevronFill: =gblAppStyles.Dropdown.ChevronFill
+        ChevronHoverBackground: =gblAppStyles.Dropdown.ChevronHoverBackground
+        ChevronHoverFill: =gblAppStyles.Dropdown.ChevronHoverFill
+        Color: =gblAppStyles.Dropdown.Color
+        DisabledBorderColor: =gblAppStyles.Dropdown.DisabledBorderColor
+        DisabledColor: =gblAppStyles.Dropdown.DisabledColor
+        DisabledFill: =gblAppStyles.Dropdown.DisabledFill
+        Fill: =gblAppStyles.Dropdown.Fill
+        FocusedBorderColor: =gblAppStyles.Dropdown.FocusedBorderColor
+        Font: =Font.'Segoe UI'
         Items: =["default", "dark", "high contrast"]
         OnChange: |
             =Set(
@@ -1227,6 +1242,7 @@ Screen1 As screen:
         FocusedBorderColor: =gblAppStyles.ButtonPrimary.FocusedBorderColor
         FocusedBorderThickness: =gblAppStyles.ButtonPrimary.FocusedBorderThickness
         Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
         Height: =gblAppStyles.ButtonPrimary.Height
         HoverBorderColor: =gblAppStyles.ButtonPrimary.HoverBorderColor
         HoverColor: =gblAppStyles.ButtonPrimary.HoverColor
@@ -1267,6 +1283,7 @@ Screen1 As screen:
         PressedBorderColor: =gblAppStyles.Label.PressedBorderColor
         PressedColor: =gblAppStyles.Label.PressedColor
         PressedFill: =gblAppStyles.Label.PressedFill
+        Size: =14
         Text: ="Textlabel"
         X: =37
         Y: =142
@@ -1324,6 +1341,10 @@ Screen1 As screen:
         PressedColor: =gblAppStyles.TextInput.PressedColor
         PressedFill: =gblAppStyles.TextInput.PressedFill
         RadiusBottomLeft: =gblAppStyles.TextInput.Radius
+        RadiusBottomRight: =gblAppStyles.TextInput.Radius
+        RadiusTopLeft: =gblAppStyles.TextInput.Radius
+        RadiusTopRight: =gblAppStyles.TextInput.Radius
+        Size: =14
         X: =34
         Y: =200
         ZIndex: =5

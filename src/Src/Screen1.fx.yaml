@@ -1,0 +1,97 @@
+Screen1 As screen:
+
+    drp_Theme As dropdown:
+        Items: =["default", "darkmode", "high contrast"]
+        X: =1005
+        Y: =30
+        ZIndex: =1
+
+    Button1 As button:
+        BorderColor: =gblAppStyles.ButtonPrimary.BorderColor
+        BorderThickness: =gblAppStyles.ButtonPrimary.BorderThickness
+        Color: =gblAppStyles.ButtonPrimary.Color
+        DisabledBorderColor: =gblAppStyles.ButtonPrimary.DisabledBorderColor
+        DisabledColor: =gblAppStyles.ButtonPrimary.DisabledColor
+        DisabledFill: =gblAppStyles.ButtonPrimary.DisabledFill
+        Fill: =gblAppStyles.ButtonPrimary.Fill
+        FocusedBorderColor: =gblAppStyles.ButtonPrimary.FocusedBorderColor
+        FocusedBorderThickness: =gblAppStyles.ButtonPrimary.FocusedBorderThickness
+        Font: =Font.'Segoe UI'
+        Height: =gblAppStyles.ButtonPrimary.Height
+        HoverBorderColor: =gblAppStyles.ButtonPrimary.HoverBorderColor
+        HoverColor: =gblAppStyles.ButtonPrimary.HoverColor
+        HoverFill: =gblAppStyles.ButtonPrimary.HoverFill
+        PaddingBottom: =12
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =12
+        PressedBorderColor: =gblAppStyles.ButtonPrimary.PressedBorderColor
+        PressedColor: =gblAppStyles.ButtonPrimary.PressedColor
+        PressedFill: =gblAppStyles.ButtonPrimary.PressedFill
+        RadiusBottomLeft: =gblAppStyles.ButtonPrimary.Radius
+        RadiusBottomRight: =gblAppStyles.ButtonPrimary.Radius
+        RadiusTopLeft: =gblAppStyles.ButtonPrimary.Radius
+        RadiusTopRight: =gblAppStyles.ButtonPrimary.Radius
+        Size: =14
+        Text: ="primary"
+        Width: |
+            =80
+        X: =37
+        Y: =70
+        ZIndex: =2
+
+    Label2 As label:
+        BorderColor: =gblAppStyles.Label.BorderColor
+        BorderThickness: =gblAppStyles.Label.BorderThickness
+        Color: =gblAppStyles.Label.Color
+        DisabledBorderColor: =gblAppStyles.Label.DisabledBorderColor
+        DisabledColor: =gblAppStyles.Label.DisabledColor
+        DisabledFill: =gblAppStyles.Label.DisabledFill
+        Fill: =gblAppStyles.Label.Fill
+        FocusedBorderColor: =gblAppStyles.Label.FocusedBorderColor
+        FocusedBorderThickness: =gblAppStyles.Label.FocusedBorderThickness
+        Height: =gblAppStyles.Label.Height
+        HoverBorderColor: =gblAppStyles.Label.HoverBorderColor
+        HoverColor: =gblAppStyles.Label.HoverColor
+        HoverFill: =gblAppStyles.Label.HoverFill
+        PressedBorderColor: =gblAppStyles.Label.PressedBorderColor
+        PressedColor: =gblAppStyles.Label.PressedColor
+        PressedFill: =gblAppStyles.Label.PressedFill
+        Text: ="Textlabel"
+        X: =37
+        Y: =142
+        ZIndex: =3
+
+    Button1_1 As button:
+        BorderColor: =gblAppStyles.ButtonSecondary.BorderColor
+        BorderThickness: =gblAppStyles.ButtonPrimary.BorderThickness
+        Color: =gblAppStyles.ButtonSecondary.Color
+        DisabledBorderColor: =gblAppStyles.ButtonSecondary.DisabledBorderColor
+        DisabledColor: =gblAppStyles.ButtonSecondary.DisabledColor
+        DisabledFill: =gblAppStyles.ButtonSecondary.DisabledFill
+        Fill: =gblAppStyles.ButtonSecondary.Fill
+        FocusedBorderColor: =gblAppStyles.ButtonSecondary.FocusedBorderColor
+        FocusedBorderThickness: =gblAppStyles.ButtonSecondary.FocusedBorderThickness
+        Font: =Font.'Segoe UI'
+        Height: =gblAppStyles.ButtonPrimary.Height
+        HoverBorderColor: =gblAppStyles.ButtonSecondary.HoverBorderColor
+        HoverColor: =gblAppStyles.ButtonSecondary.HoverColor
+        HoverFill: =gblAppStyles.ButtonSecondary.HoverFill
+        PaddingBottom: =12
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =12
+        PressedBorderColor: =gblAppStyles.ButtonPrimary.PressedBorderColor
+        PressedColor: =gblAppStyles.ButtonPrimary.PressedColor
+        PressedFill: =gblAppStyles.ButtonPrimary.PressedFill
+        RadiusBottomLeft: =gblAppStyles.ButtonPrimary.Radius
+        RadiusBottomRight: =gblAppStyles.ButtonPrimary.Radius
+        RadiusTopLeft: =gblAppStyles.ButtonPrimary.Radius
+        RadiusTopRight: =gblAppStyles.ButtonPrimary.Radius
+        Size: =14
+        Text: ="secondary"
+        Width: =90
+        X: =144
+        Y: =70
+        ZIndex: =4
+

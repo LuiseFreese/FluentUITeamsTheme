@@ -342,7 +342,7 @@
           "name": "defaultLabelStyle",
           "propertyValuesMap": [
             {
-              "property": "BorderColor",
+              "property": "BorderColr",
               "value": "%Palette.InputBorderColor%"
             },
             {
@@ -363,7 +363,7 @@
             },
             {
               "property": "Size",
-              "value": "%Palette.TextBodyFontSize%"
+              "value": "14"
             },
             {
               "property": "LineHeight",

@@ -1,51 +1,136 @@
 cmp_DonutChart As CanvasComponent:
     ChartStyles: |-
-        ={ItemColorSet: [gblAppStyles.ButtonPrimary.BorderColor, gblAppStyles.ButtonPrimary.Color],
+        ={ItemColorSet: [gblAppStyles.ButtonPrimary.BorderColor, gblAppStyles.Background.Fill],
         Color: gblAppStyles.Label.Color,
-        Font: 'Segoe UI'
+        Font: 'Segoe UI',
+        ShowLabels:false
         }
-    Fill: =RGBA(0, 0, 0, 0)
-    Height: =640
+    CircleStyles: |-
+        ={Fill: gblAppStyles.Background.Fill}
+    Fill: =Transparent
+    Height: =240
     LegendStyles: |-
         ={SampleStringField: "SampleText", SampleNumberField: 10, SampleBooleanField: true}
-    Width: =640
+    SliderStyles: |-
+        ={
+            BorderColor: If(
+                gblThemeHiCo,
+                gblAppColors.OverlayTransparent,
+                gblThemeDark,
+                gblAppColors.OverlayTransparent,
+                gblAppColors.OverlayTransparent
+            ),
+            DisabledBorderColor: If(
+                gblThemeHiCo,
+                gblAppColors.HighContrastDisabled,
+                gblThemeDark,
+                gblAppColors.NeutralWebGray150,
+                gblAppColors.NeutralWebGray30
+            ),
+            FocusedBorderColor: If(
+                gblThemeHiCo,
+                gblAppColors.HighContrastSelectedBackground,
+                gblThemeDark,
+                gblAppColors.TeamsDarkTint10,
+                gblAppColors.TeamsDefaultPrimary
+            ),
+            HandleActiveFill: If(
+                gblThemeHiCo,
+                gblAppColors.HighContrastHyperlinks,
+                gblThemeDark,
+                gblAppColors.TeamsDarkTint10,
+                gblAppColors.TeamsDefaultPrimary
+            ),
+            HandleFill: If(
+                gblThemeHiCo,
+                gblAppColors.HighContrastHyperlinks,
+                gblThemeDark,
+                gblAppColors.TeamsDarkTint10,
+                gblAppColors.TeamsDefaultPrimary
+            ),
+            HandleHoverFill: If(
+                gblThemeHiCo,
+                gblAppColors.HighContrastHyperlinks,
+                gblThemeDark,
+                gblAppColors.TeamsDarkTint10,
+                gblAppColors.TeamsDefaultPrimary
+            ),
+            RailFill: If(
+                gblThemeHiCo,
+                gblAppColors.HighContrastHyperlinks,
+                gblThemeDark,
+                gblAppColors.TeamsDarkTint10,
+                gblAppColors.TeamsDefaultPrimary
+            ),
+            RailHoverFill: If(
+                gblThemeHiCo,
+                gblAppColors.HighContrastHyperlinks,
+                gblThemeDark,
+                gblAppColors.TeamsDarkTint10,
+                gblAppColors.TeamsDefaultPrimary
+            ),
+            ValueFill: If(
+                gblThemeHiCo,
+                gblAppColors.HighContrastHyperlinks,
+                gblThemeDark,
+                gblAppColors.TeamsDarkTint10,
+                gblAppColors.TeamsDefaultPrimary
+            ),
+            ValueHoverFill: If(
+                gblThemeHiCo,
+                gblAppColors.HighContrastHyperlinks,
+                gblThemeDark,
+                gblAppColors.TeamsDarkTint10,
+                gblAppColors.TeamsDefaultPrimary
+            )
+        }
+    Width: =200
     X: =0
     Y: =0
     ZIndex: =1
 
-    CompositePieChart1 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =1
-
-        Title1 As label:
-            Align: =Align.Center
-            Color: =
-            Height: =25
-            Text: ="Chart Title"
-            Width: =400
-            X: =40
-            Y: =40
-            ZIndex: =2
-
-        PieChart1 As pieChart:
-            BorderColor: =    
-            Color: =
-            ItemColorSet: =cmp_DonutChart.ChartStyles.ItemColorSet
-            Items: |-
-                =Table(
-                {Item:"Remainder",Quantity:100-sli_2.Value},
-                {Item:"Value",Quantity:sli_2.Value}
-                )
-            X: =40
-            Y: =70
-            ZIndex: =3
+    PieChart1 As pieChart:
+        BorderColor: =    
+        Color: =
+        Height: =cmp_DonutChart.Height
+        ItemColorSet: =cmp_DonutChart.ChartStyles.ItemColorSet
+        Items: |-
+            =Table(
+                {
+                    Item: "Value",
+                    Quantity: sli_2.Value
+                },
+                {
+                    Item: "Remainder",
+                    Quantity: 100 - sli_2.Value
+                }
+            )
+        ShowLabels: =false
+        Width: =cmp_DonutChart.Width
+        ZIndex: =3
 
     sli_2 As slider:
-        BorderColor: =
-        X: =40
-        Y: =520
+        BorderColor: =cmp_DonutChart.SliderStyles.BorderColor
+        DisabledBorderColor: =cmp_DonutChart.SliderStyles.DisabledBorderColor
+        FocusedBorderColor: =cmp_DonutChart.SliderStyles.FocusedBorderColor
+        HandleActiveFill: =cmp_DonutChart.SliderStyles.HandleActiveFill
+        HandleFill: =cmp_DonutChart.SliderStyles.HandleFill
+        HandleHoverFill: =cmp_DonutChart.SliderStyles.HandleHoverFill
+        PressedBorderColor: =
+        RailFill: =cmp_DonutChart.SliderStyles.RailFill
+        RailHoverFill: =cmp_DonutChart.SliderStyles.RailHoverFill
+        ValueFill: =cmp_DonutChart.SliderStyles.ValueFill
+        ValueHoverFill: =cmp_DonutChart.SliderStyles.ValueHoverFill
+        Width: =cmp_DonutChart.Width-20
+        X: =(cmp_DonutChart.Width-Self.Width)/2
+        Y: =cmp_DonutChart.Height-Self.Height
         ZIndex: =5
+
+    Circle1 As circle:
+        Fill: =cmp_DonutChart.CircleStyles.Fill
+        Height: =(cmp_DonutChart.Width/3)
+        Width: =(cmp_DonutChart.Width/3)
+        X: =66
+        Y: =86
+        ZIndex: =6
 

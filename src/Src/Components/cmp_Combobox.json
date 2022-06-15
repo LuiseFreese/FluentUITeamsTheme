@@ -240,7 +240,7 @@
         "Name": "cmb_2",
         "Parent": "cmp_Combobox",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 34,
+        "PublishOrderIndex": 35,
         "Rules": [
           {
             "Category": "Data",
@@ -606,7 +606,7 @@
         "Name": "rec_Underline_2",
         "Parent": "cmp_Combobox",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 35,
+        "PublishOrderIndex": 36,
         "Rules": [
           {
             "Category": "Design",

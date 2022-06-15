@@ -1719,7 +1719,7 @@ Screen1 As screen:
         DisabledFill: =Self.Fill
         DisplayMode: =DisplayMode.Edit
         FocusedBorderColor: =Self.BorderColor
-        Height: =40
+        Height: =32
         HoverFill: =Self.Fill
         PressedFill: =Self.Fill
         RatingFill: =gblAppStyles.Rating.RatingFill
@@ -3409,7 +3409,32 @@ Screen1 As screen:
         ZIndex: =22
 
     cmp_DonutChart_1 As cmp_DonutChart:
-        X: =726
-        Y: =102
+        X: =365
+        Y: =270
         ZIndex: =23
+
+    lbl_4 As label:
+        BorderColor: =gblAppStyles.Label.BorderColor
+        BorderThickness: =gblAppStyles.Label.BorderThickness
+        Color: =gblAppStyles.Label.Color
+        DisabledBorderColor: =gblAppStyles.Label.DisabledBorderColor
+        DisabledColor: =gblAppStyles.Label.DisabledColor
+        DisabledFill: =gblAppStyles.Label.DisabledFill
+        Fill: =gblAppStyles.Label.Fill
+        FocusedBorderColor: =gblAppStyles.Label.FocusedBorderColor
+        FocusedBorderThickness: =gblAppStyles.Label.FocusedBorderThickness
+        Font: =Font.'Segoe UI'
+        Height: =38
+        HoverBorderColor: =gblAppStyles.Label.HoverBorderColor
+        HoverColor: =gblAppStyles.Label.HoverColor
+        HoverFill: =gblAppStyles.Label.HoverFill
+        PressedBorderColor: =gblAppStyles.Label.PressedBorderColor
+        PressedColor: =gblAppStyles.Label.PressedColor
+        PressedFill: =gblAppStyles.Label.PressedFill
+        Size: =14
+        Text: ="donutchart cmp"
+        Width: =214
+        X: =365
+        Y: =270
+        ZIndex: =24
 

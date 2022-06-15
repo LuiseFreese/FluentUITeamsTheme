@@ -228,7 +228,7 @@ cmp_TextInput As CanvasComponent:
     txt_2 As text:
         BorderColor: =cmp_TextInput.TextInputStyles.BorderColor
         Color: =cmp_TextInput.TextInputStyles.Color
-        Default: ="TextInput cmp"
+        Default: ="textInput cmp"
         DisabledBorderColor: =cmp_TextInput.TextInputStyles.DisabledBorderColor
         DisabledColor: =cmp_TextInput.TextInputStyles.DisabledColor
         DisabledFill: =cmp_TextInput.TextInputStyles.DisabledFill

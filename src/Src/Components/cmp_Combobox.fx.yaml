@@ -584,6 +584,7 @@ cmp_Combobox As CanvasComponent:
         SearchItems: =[]
         SelectionColor: =cmp_Combobox.ComboBoxStyles.SelectionColor
         SelectionFill: =cmp_Combobox.ComboBoxStyles.SelectionFill
+        Size: =13
         Width: =214
         ZIndex: =1
 

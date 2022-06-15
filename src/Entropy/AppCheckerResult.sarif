@@ -14,49 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "cmp_DonutChart.PieChart1.ShowLabels"
+                  "fullyQualifiedName": "cmp_TextInput.txt_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "cmp_DonutChart.PieChart1.ShowLabels",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "ShowLabels",
-                "module": "cmp_DonutChart",
-                "type": "cmp_DonutChart.PieChart1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-HelpfulControlSettingNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "cmp_DonutChart.sli_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "cmp_DonutChart.sli_2.AccessibleLabel",
+                  "fullyQualifiedName": "cmp_TextInput.txt_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "cmp_DonutChart",
-                "type": "cmp_DonutChart.sli_2"
+                "module": "cmp_TextInput",
+                "type": "cmp_TextInput.txt_2"
               }
             }
           ],
@@ -67,7 +37,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -97,37 +67,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "cmp_TextInput.txt_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "cmp_TextInput.txt_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "cmp_TextInput",
-                "type": "cmp_TextInput.txt_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -157,7 +97,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -186,7 +126,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -216,7 +156,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -246,7 +186,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -276,7 +216,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -306,7 +246,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -336,7 +276,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -366,7 +306,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -396,7 +336,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -426,7 +366,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -455,7 +395,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -485,7 +425,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -515,25 +455,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3"
+                  "fullyQualifiedName": "cmp_DonutChart.sli_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3",
+                  "fullyQualifiedName": "cmp_DonutChart.sli_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "module": "Screen3",
-                "type": "Screen3"
+                "member": "AccessibleLabel",
+                "module": "cmp_DonutChart",
+                "type": "cmp_DonutChart.sli_2"
               }
             }
           ],
@@ -541,10 +482,40 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Low"
+            "level": "Medium"
           },
-          "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 2
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cmp_DonutChart.PieChart1.ShowLabels"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "cmp_DonutChart.PieChart1.ShowLabels",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "ShowLabels",
+                "module": "cmp_DonutChart",
+                "type": "cmp_DonutChart.PieChart1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-HelpfulControlSettingNeeded",
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -562,36 +533,6 @@
               },
               "properties": {
                 "member": "Slide1",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.Slide2"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.Slide2",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Slide2",
                 "module": "App",
                 "type": "App"
               }
@@ -635,6 +576,36 @@
           },
           "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.Slide2"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.Slide2",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Slide2",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 4
         }
       ],
       "tool": {
@@ -642,23 +613,6 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
-            {
-              "id": "acc-HelpfulControlSettingNeeded",
-              "messageStrings": {
-                "issue": {
-                  "text": "Missing helpful control settings"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Select the warning and set the item property to true to enable control setting."
-                ],
-                "level": "Medium",
-                "primaryCategory": "accessibility",
-                "whyFix": "Changing this property setting will give the user better information about the function of the controls in your app."
-              }
-            },
             {
               "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {
@@ -708,6 +662,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
+              }
+            },
+            {
+              "id": "acc-HelpfulControlSettingNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing helpful control settings"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Select the warning and set the item property to true to enable control setting."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "Changing this property setting will give the user better information about the function of the controls in your app."
               }
             },
             {

@@ -3413,3 +3413,9 @@ Screen1 As screen:
         Y: =100
         ZIndex: =26
 
+    Label3 As label:
+        Text: ="Text"
+        X: =80
+        Y: =80
+        ZIndex: =27
+

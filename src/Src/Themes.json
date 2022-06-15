@@ -172,7 +172,7 @@
         {
           "name": "ReservedWhiteColor",
           "type": "c",
-          "value": "RGBA(255, 255, 255, 1)"
+          "value": "gblAppStyles.Background.Fill"
         },
         {
           "name": "ReservedGrayColor",
@@ -250,7 +250,7 @@
           "name": "TextBodyFontSize",
           "phoneValue": "21",
           "type": "n",
-          "value": "13"
+          "value": "14"
         },
         {
           "name": "TextFooterFontSize",
@@ -299,7 +299,7 @@
         {
           "name": "DefaultSize2",
           "type": "n",
-          "value": "13"
+          "value": "14"
         },
         {
           "name": "DropTargetBorderColor",

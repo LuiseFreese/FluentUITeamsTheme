@@ -221,7 +221,7 @@
         "Name": "txt_2",
         "Parent": "cmp_TextInput",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 12,
+        "PublishOrderIndex": 40,
         "Rules": [
           {
             "Category": "Data",
@@ -557,7 +557,7 @@
         "Name": "rec_Underline",
         "Parent": "cmp_TextInput",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 13,
+        "PublishOrderIndex": 41,
         "Rules": [
           {
             "Category": "Design",

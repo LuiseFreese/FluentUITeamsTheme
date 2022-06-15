@@ -263,7 +263,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "btn_Primary",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -721,7 +721,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "btn_Secondary",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2099,7 +2099,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "cmp_TextInput_1",
-      "ParentIndex": 9,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2595,7 +2595,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DatePicker1",
-      "ParentIndex": 21,
+      "ParentIndex": 22,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3544,7 +3544,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "drp_Theme_1",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3815,7 +3815,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label1",
-      "ParentIndex": 22,
+      "ParentIndex": 21,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4070,7 +4070,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label2",
-      "ParentIndex": 11,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4325,7 +4325,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label4",
-      "ParentIndex": 0,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4727,7 +4727,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_1",
-      "ParentIndex": 10,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5136,7 +5136,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_2",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5545,7 +5545,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_3",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6335,7 +6335,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Theme",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6601,7 +6601,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle1",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6747,7 +6747,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle1_1",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

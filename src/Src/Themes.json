@@ -202,7 +202,7 @@
         {
           "name": "TextBodyFontFace",
           "type": "e",
-          "value": "%Font.RESERVED%.'Segoe UI'"
+          "value": "%Font.RESERVED%.'Open Sans'"
         },
         {
           "name": "InputBorderThickness",

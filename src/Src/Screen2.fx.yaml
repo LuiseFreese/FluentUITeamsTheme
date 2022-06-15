@@ -1,7 +1,9 @@
 Screen2 As screen:
     Fill: =gblAppStyles.Background.Fill
+    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
 
     "Gallery2 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
+        BorderColor: =RGBA(166, 166, 166, 1)
         Height: =346
         Items: |-
             =Table(
@@ -52,14 +54,14 @@ Screen2 As screen:
 
         Title3 As label:
             Color: =gblAppStyles.Label.Color
-            FontWeight: =FontWeight.Normal
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
             Height: =32
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =14
             Text: =ThisItem.name
             VerticalAlign: =VerticalAlign.Top
             Width: =78
@@ -69,13 +71,14 @@ Screen2 As screen:
 
         Subtitle3 As label:
             Color: =gblAppStyles.Label.Color
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
             Height: =32
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =14
             Text: =ThisItem.location
             VerticalAlign: =VerticalAlign.Top
             Width: =139
@@ -85,13 +88,14 @@ Screen2 As screen:
 
         Body1 As label:
             Color: =gblAppStyles.Label.Color
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
             Height: =32
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =14
             Text: =ThisItem.favoriteIcecream
             VerticalAlign: =VerticalAlign.Top
             Width: =152
@@ -100,6 +104,7 @@ Screen2 As screen:
             ZIndex: =3
 
         Separator3 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
             Fill: =gblAppStyles.ButtonPrimary.BorderColor
             Height: =1
             OnSelect: =Select(Parent)
@@ -108,11 +113,22 @@ Screen2 As screen:
             ZIndex: =5
 
         Icon4 As icon.CancelBadge:
+            BorderColor: =RGBA(166, 166, 166, 1)
             Color: =gblAppStyles.Label.Color
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
             Fill: =gblAppStyles.Label.Fill
+            FocusedBorderThickness: =4
             Height: =55
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.More
             OnSelect: =Select(Parent)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
             Width: =20
             X: =1290
             ZIndex: =6

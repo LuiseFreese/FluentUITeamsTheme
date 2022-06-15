@@ -227,6 +227,7 @@ cmp_TextInput As CanvasComponent:
 
     txt_2 As text:
         BorderColor: =cmp_TextInput.TextInputStyles.BorderColor
+        BorderThickness: =2
         Color: =cmp_TextInput.TextInputStyles.Color
         Default: ="textInput cmp"
         DisabledBorderColor: =cmp_TextInput.TextInputStyles.DisabledBorderColor
@@ -234,6 +235,7 @@ cmp_TextInput As CanvasComponent:
         DisabledFill: =cmp_TextInput.TextInputStyles.DisabledFill
         Fill: =cmp_TextInput.TextInputStyles.Fill
         FocusedBorderColor: =cmp_TextInput.TextInputStyles.FocusedBorderColor
+        FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         Height: =cmp_TextInput.TextInputStyles.Height
         HoverBorderColor: =cmp_TextInput.TextInputStyles.HoverBorderColor
@@ -246,6 +248,7 @@ cmp_TextInput As CanvasComponent:
         RadiusBottomRight: =cmp_TextInput.TextInputStyles.Radius
         RadiusTopLeft: =cmp_TextInput.TextInputStyles.Radius
         RadiusTopRight: =cmp_TextInput.TextInputStyles.Radius
+        Size: =13
         Width: =214
         Y: =1
         ZIndex: =1

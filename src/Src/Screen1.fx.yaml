@@ -1,5 +1,6 @@
 Screen1 As screen:
     Fill: =gblAppStyles.Background.Fill
+    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
 
     drp_Theme As dropdown:
         BorderColor: =gblAppStyles.Dropdown.BorderColor
@@ -1431,11 +1432,16 @@ Screen1 As screen:
                     }
                 }
             );
+        PaddingBottom: =5
+        PaddingLeft: =12
+        PaddingRight: =5
+        PaddingTop: =5
         PressedBorderColor: =gblAppStyles.Dropdown.PressedBorderColor
         PressedColor: =gblAppStyles.Dropdown.PressedColor
         PressedFill: =gblAppStyles.Dropdown.PressedFill
         SelectionColor: =gblAppStyles.Dropdown.SelectionColor
         SelectionFill: =gblAppStyles.Dropdown.SelectionFill
+        Size: =13
         Width: =gblAppStyles.Dropdown.Width
         X: =46
         Y: =344
@@ -1452,7 +1458,6 @@ Screen1 As screen:
         FocusedBorderColor: =gblAppStyles.ButtonPrimary.FocusedBorderColor
         FocusedBorderThickness: =gblAppStyles.ButtonPrimary.FocusedBorderThickness
         Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Normal
         Height: =gblAppStyles.ButtonPrimary.Height
         HoverBorderColor: =gblAppStyles.ButtonPrimary.HoverBorderColor
         HoverColor: =gblAppStyles.ButtonPrimary.HoverColor
@@ -1477,6 +1482,7 @@ Screen1 As screen:
 
     lbl_1 As label:
         BorderColor: =gblAppStyles.Label.BorderColor
+        BorderStyle: =BorderStyle.None
         BorderThickness: =gblAppStyles.Label.BorderThickness
         Color: =gblAppStyles.Label.Color
         DisabledBorderColor: =gblAppStyles.Label.DisabledBorderColor
@@ -1493,7 +1499,6 @@ Screen1 As screen:
         PressedBorderColor: =gblAppStyles.Label.PressedBorderColor
         PressedColor: =gblAppStyles.Label.PressedColor
         PressedFill: =gblAppStyles.Label.PressedFill
-        Size: =14
         Text: ="this is a text label"
         Width: =214
         X: =46
@@ -1511,7 +1516,6 @@ Screen1 As screen:
         FocusedBorderColor: =gblAppStyles.ButtonSecondary.FocusedBorderColor
         FocusedBorderThickness: =gblAppStyles.ButtonSecondary.FocusedBorderThickness
         Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Normal
         Height: =gblAppStyles.ButtonSecondary.Height
         HoverBorderColor: =gblAppStyles.ButtonSecondary.HoverBorderColor
         HoverColor: =gblAppStyles.ButtonSecondary.HoverColor
@@ -1558,41 +1562,38 @@ Screen1 As screen:
         RadiusBottomRight: =gblAppStyles.TextInput.Radius
         RadiusTopLeft: =gblAppStyles.TextInput.Radius
         RadiusTopRight: =gblAppStyles.TextInput.Radius
-        Size: =14
         Width: =208
         X: =46
         Y: =158
         ZIndex: =5
 
     ComboBox1 As combobox:
-        BorderColor: =gblAppStyles.Dropdown.BorderColor
-        BorderThickness: =gblAppStyles.Dropdown.BorderThickness
-        ChevronBackground: =gblAppStyles.Dropdown.ChevronBackground
-        ChevronDisabledBackground: =gblAppStyles.Dropdown.ChevronDisabledBackground
-        ChevronDisabledFill: =gblAppStyles.Dropdown.ChevronDisabledFill
-        ChevronFill: =gblAppStyles.Dropdown.ChevronFill
-        ChevronHoverBackground: =gblAppStyles.Dropdown.ChevronHoverBackground
-        ChevronHoverFill: =gblAppStyles.Dropdown.ChevronHoverFill
-        Color: =gblAppStyles.Dropdown.Color
-        DisabledBorderColor: =gblAppStyles.Dropdown.DisabledBorderColor
-        DisabledColor: =gblAppStyles.Dropdown.DisabledColor
-        DisabledFill: =gblAppStyles.Dropdown.DisabledFill
-        Fill: =gblAppStyles.Dropdown.Fill
+        BorderColor: =RGBA(166, 166, 166, 1)
+        ChevronBackground: =RGBA(255, 255, 255, 1)
+        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+        ChevronFill: =RGBA(33, 33, 33, 1)
+        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+        ChevronHoverFill: =RGBA(33, 33, 33, 1)
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         FocusedBorderColor: =gblAppStyles.Dropdown.FocusedBorderColor
         Font: =Font.'Segoe UI'
         Height: |
             =gblAppStyles.Dropdown.Height
-        HoverBorderColor: =gblAppStyles.Dropdown.HoverBorderColor
-        HoverColor: =gblAppStyles.Dropdown.HoverColor
-        HoverFill: =gblAppStyles.Dropdown.HoverFill
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Combobox"
         Items: =ComboBoxSample
-        PressedBorderColor: =gblAppStyles.Dropdown.PressedBorderColor
-        PressedColor: =gblAppStyles.Dropdown.PressedColor
-        PressedFill: =gblAppStyles.Dropdown.PressedFill
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
         SearchItems: =Search(ComboBoxSample,ComboBox1.SearchText,"Value1")
-        SelectionColor: =gblAppStyles.Dropdown.SelectionColor
-        SelectionFill: =gblAppStyles.Dropdown.SelectionFill
+        SelectionFill: =RGBA(73, 130, 5, 1)
+        Size: =13
         Width: =gblAppStyles.Dropdown.Width
         X: =46
         Y: =294
@@ -1600,6 +1601,7 @@ Screen1 As screen:
 
     chb_2 As checkbox:
         BorderColor: =gblAppStyles.Checkbox.BorderColor
+        BorderStyle: =BorderStyle.None
         BorderThickness: =gblAppStyles.Checkbox.BorderThickness
         CheckboxBackgroundFill: =gblAppStyles.Checkbox.CheckboxBackgroundFill
         CheckboxBorderColor: =gblAppStyles.Checkbox.CheckboxBorderColor
@@ -1611,6 +1613,7 @@ Screen1 As screen:
         DisabledFill: =gblAppStyles.Checkbox.DisabledFill
         Fill: =gblAppStyles.Checkbox.Fill
         FocusedBorderColor: =gblAppStyles.Checkbox.FocusedBorderColor
+        FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         Height: =gblAppStyles.Checkbox.Height
         HoverBorderColor: =gblAppStyles.Checkbox.HoverBorderColor
@@ -1619,6 +1622,7 @@ Screen1 As screen:
         PressedBorderColor: =gblAppStyles.Checkbox.PressedBorderColor
         PressedColor: =gblAppStyles.Checkbox.PressedColor
         PressedFill: =gblAppStyles.Checkbox.PressedFill
+        Size: =13
         Text: ="Option 1"
         X: =46
         Y: =208
@@ -1626,6 +1630,7 @@ Screen1 As screen:
 
     chb_1 As checkbox:
         BorderColor: =gblAppStyles.Checkbox.BorderColor
+        BorderStyle: =BorderStyle.None
         BorderThickness: =gblAppStyles.Checkbox.BorderThickness
         CheckboxBackgroundFill: =gblAppStyles.Checkbox.CheckboxBackgroundFill
         CheckboxBorderColor: =gblAppStyles.Checkbox.CheckboxBorderColor
@@ -1637,6 +1642,7 @@ Screen1 As screen:
         DisabledFill: =gblAppStyles.Checkbox.DisabledFill
         Fill: =gblAppStyles.Checkbox.Fill
         FocusedBorderColor: =gblAppStyles.Checkbox.FocusedBorderColor
+        FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         Height: =gblAppStyles.Checkbox.Height
         HoverBorderColor: =gblAppStyles.Checkbox.HoverBorderColor
@@ -1645,6 +1651,7 @@ Screen1 As screen:
         PressedBorderColor: =gblAppStyles.Checkbox.PressedBorderColor
         PressedColor: =gblAppStyles.Checkbox.PressedColor
         PressedFill: =gblAppStyles.Checkbox.PressedFill
+        Size: =13
         Text: ="Option 2"
         X: =46
         Y: =240
@@ -1652,6 +1659,7 @@ Screen1 As screen:
 
     lbl_Theme As label:
         BorderColor: =gblAppStyles.Label.BorderColor
+        BorderStyle: =BorderStyle.None
         BorderThickness: =gblAppStyles.Label.BorderThickness
         Color: =gblAppStyles.Label.Color
         DisabledBorderColor: =gblAppStyles.Label.DisabledBorderColor
@@ -1668,7 +1676,6 @@ Screen1 As screen:
         PressedBorderColor: =gblAppStyles.Label.PressedBorderColor
         PressedColor: =gblAppStyles.Label.PressedColor
         PressedFill: =gblAppStyles.Label.PressedFill
-        Size: =14
         Text: ="pick a theme"
         Width: =208
         X: =1130
@@ -1677,6 +1684,7 @@ Screen1 As screen:
 
     tgl_1 As toggleSwitch:
         BorderColor: =gblAppStyles.Toggle.BorderColor
+        BorderStyle: =BorderStyle.None
         BorderThickness: =gblAppStyles.Toggle.BorderThickness
         Color: =gblAppStyles.Toggle.Color
         DisabledBorderColor: =gblAppStyles.Toggle.DisabledBorderColor
@@ -1684,12 +1692,12 @@ Screen1 As screen:
         FalseFill: =White
         FalseHoverFill: =gblAppStyles.Toggle.FalseHoverFill
         FocusedBorderColor: =gblAppStyles.Toggle.FocusedBorderColor
+        FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         HandleFill: =gblAppStyles.Toggle.HandleFillTrue
         Height: =24
         HoverBorderColor: =gblAppStyles.Toggle.HoverBorderColor
         PressedBorderColor: =gblAppStyles.Toggle.PressedBorderColor
-        Size: =14
         TrueFill: =gblAppStyles.Toggle.TrueFill
         TrueHoverFill: =gblAppStyles.Toggle.TrueHoverFill
         X: =50
@@ -1698,12 +1706,16 @@ Screen1 As screen:
 
     sld_1 As slider:
         BorderColor: =gblAppStyles.Slider.BorderColor
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
         DisabledBorderColor: =gblAppStyles.Slider.DisabledBorderColor
         FocusedBorderColor: =gblAppStyles.Slider.FocusedBorderColor
+        FocusedBorderThickness: =4
         HandleActiveFill: =gblAppStyles.Slider.HandleActiveFill
         HandleFill: =gblAppStyles.Slider.HandleFill
         HandleHoverFill: =gblAppStyles.Slider.HandleHoverFill
         HoverBorderColor: =
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
         RailFill: =gblAppStyles.Slider.RailFill
         RailHoverFill: =gblAppStyles.Slider.RailHoverFill
         ValueFill: =gblAppStyles.Slider.ValueFill
@@ -1715,10 +1727,15 @@ Screen1 As screen:
 
     rtg_1 As rating:
         BorderColor: =gblAppStyles.Rating.BorderColor
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
         Default: =3
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =Self.Fill
         DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
         FocusedBorderColor: =Self.BorderColor
+        FocusedBorderThickness: =4
         Height: =32
         HoverFill: =Self.Fill
         PressedFill: =Self.Fill
@@ -1730,6 +1747,7 @@ Screen1 As screen:
 
     time_1 As timer:
         BorderColor: =gblAppStyles.Timer.BorderColor
+        BorderStyle: =BorderStyle.None
         Color: =gblAppStyles.Timer.Color
         DisabledBorderColor: =gblAppStyles.Timer.DisabledBorderColor
         DisabledColor: =gblAppStyles.Timer.DisabledColor
@@ -1886,6 +1904,7 @@ Screen1 As screen:
     lbl_2 As label:
         Align: =Align.Center
         BorderColor: =gblAppStyles.Label.BorderColor
+        BorderStyle: =BorderStyle.None
         BorderThickness: =gblAppStyles.Label.BorderThickness
         Color: =gblAppStyles.Label.Color
         DisabledBorderColor: =gblAppStyles.Label.DisabledBorderColor
@@ -1902,7 +1921,6 @@ Screen1 As screen:
         PressedBorderColor: =gblAppStyles.Label.PressedBorderColor
         PressedColor: =gblAppStyles.Label.PressedColor
         PressedFill: =gblAppStyles.Label.PressedFill
-        Size: =14
         Text: ="CONTROLS"
         Width: =320
         Y: =3
@@ -1911,6 +1929,7 @@ Screen1 As screen:
     lbl_3 As label:
         Align: =Align.Center
         BorderColor: =gblAppStyles.Label.BorderColor
+        BorderStyle: =BorderStyle.None
         BorderThickness: =gblAppStyles.Label.BorderThickness
         Color: =gblAppStyles.Label.Color
         DisabledBorderColor: =gblAppStyles.Label.DisabledBorderColor
@@ -1927,7 +1946,6 @@ Screen1 As screen:
         PressedBorderColor: =gblAppStyles.Label.PressedBorderColor
         PressedColor: =gblAppStyles.Label.PressedColor
         PressedFill: =gblAppStyles.Label.PressedFill
-        Size: =14
         Text: ="COMPONENTS"
         Width: =320
         X: =320
@@ -1935,16 +1953,30 @@ Screen1 As screen:
         ZIndex: =18
 
     Rectangle1 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
         Fill: =gblAppStyles.ButtonPrimary.BorderColor
+        FocusedBorderThickness: =4
         Height: =App.Height - 40
+        HoverFill: =RGBA(73, 130, 5, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
         Width: =2
         X: =320
         Y: =20
         ZIndex: =19
 
     Rectangle1_1 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
         Fill: =gblAppStyles.ButtonPrimary.Fill
+        FocusedBorderThickness: =4
         Height: =App.Height - 40
+        HoverFill: =RGBA(73, 130, 5, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
         Width: =2
         X: =640
         Y: =20
@@ -1953,6 +1985,7 @@ Screen1 As screen:
     DatePicker1 As datepicker:
         BorderColor: =gblAppStyles.Dropdown.BorderColor
         BorderThickness: =1
+        CalendarHeaderFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         Color: =gblAppStyles.Dropdown.Color
         DisabledBorderColor: =gblAppStyles.Dropdown.DisabledBorderColor
         DisabledColor: =gblAppStyles.Dropdown.DisabledColor
@@ -1961,8 +1994,12 @@ Screen1 As screen:
         FocusedBorderColor: =gblAppStyles.Dropdown.FocusedBorderColor
         Font: =Font.'Segoe UI'
         Height: =32
+        HoverDateFill: =RGBA(200, 200, 200, 1)
         IconBackground: =gblAppStyles.Dropdown.ChevronBackground
         IconFill: =gblAppStyles.Dropdown.ChevronFill
+        PaddingTop: =5
+        SelectedDateFill: =RGBA(73, 130, 5, 1)
+        Size: =13
         Width: =208
         X: =46
         Y: =394
@@ -3398,11 +3435,16 @@ Screen1 As screen:
                     }
                 }
             );
+        PaddingBottom: =5
+        PaddingLeft: =12
+        PaddingRight: =5
+        PaddingTop: =5
         PressedBorderColor: =gblAppStyles.Dropdown.PressedBorderColor
         PressedColor: =gblAppStyles.Dropdown.PressedColor
         PressedFill: =gblAppStyles.Dropdown.PressedFill
         SelectionColor: =gblAppStyles.Dropdown.SelectionColor
         SelectionFill: =gblAppStyles.Dropdown.SelectionFill
+        Size: =13
         Width: =gblAppStyles.Dropdown.Width
         X: =1130
         Y: =52
@@ -3415,6 +3457,7 @@ Screen1 As screen:
 
     lbl_4 As label:
         BorderColor: =gblAppStyles.Label.BorderColor
+        BorderStyle: =BorderStyle.None
         BorderThickness: =gblAppStyles.Label.BorderThickness
         Color: =gblAppStyles.Label.Color
         DisabledBorderColor: =gblAppStyles.Label.DisabledBorderColor
@@ -3431,7 +3474,6 @@ Screen1 As screen:
         PressedBorderColor: =gblAppStyles.Label.PressedBorderColor
         PressedColor: =gblAppStyles.Label.PressedColor
         PressedFill: =gblAppStyles.Label.PressedFill
-        Size: =14
         Text: ="donutchart cmp"
         Width: =214
         X: =365

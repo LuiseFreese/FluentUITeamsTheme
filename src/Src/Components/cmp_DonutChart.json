@@ -731,7 +731,7 @@
       },
       "CircleStyles"
     ],
-    "LastModifiedTimestamp": "637908966047356644",
+    "LastModifiedTimestamp": "637908961513725068",
     "Name": "cmp_DonutChart",
     "Rules": [
       {
@@ -851,7 +851,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637908966047356644",
+  "LastModifiedTimestamp": "637908961513725068",
   "Name": "f136e0b96bfb44258e898712d1ae2f9d",
   "OverridableProperties": {},
   "Version": "637908371583373908"

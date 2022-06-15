@@ -3408,3 +3408,8 @@ Screen1 As screen:
         Y: =52
         ZIndex: =22
 
+    cmp_DonutChart_1 As cmp_DonutChart:
+        X: =726
+        Y: =102
+        ZIndex: =23
+

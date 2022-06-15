@@ -134,3 +134,13 @@ cmp_DonutChart As CanvasComponent:
         Y: =86
         ZIndex: =6
 
+    Label3 As label:
+        Align: =Align.Center
+        Color: =cmp_DonutChart.ChartStyles.Color
+        Font: =Font.'Segoe UI'
+        Text: =sli_2.Value
+        Width: =66
+        X: =66
+        Y: =100
+        ZIndex: =7
+

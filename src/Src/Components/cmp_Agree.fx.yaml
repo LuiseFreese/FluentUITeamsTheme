@@ -1,6 +1,8 @@
 cmp_Agree As CanvasComponent:
-    Fill: =RGBA(0, 0, 0, 0)
-    Height: =640
+    Fill: =Transparent
+    GalleryStyles: |-
+        ={Color: gblAppStyles.Label.Color}
+    Height: =160
     SliderStyles: |-
         ={
             BorderColor: If(
@@ -72,15 +74,18 @@ cmp_Agree As CanvasComponent:
                 gblThemeDark,
                 gblAppColors.TeamsDarkTint10,
                 gblAppColors.TeamsDefaultPrimary
-            )
+            ),
+            Default: 3
         }
-    Width: =640
+    Width: |
+        =460
     X: =100
     Y: =0
     ZIndex: =1
 
     sli_3 As slider:
         BorderColor: =cmp_Agree.SliderStyles.BorderColor
+        Default: =cmp_Agree.SliderStyles.Default
         DisabledBorderColor: =cmp_Agree.SliderStyles.DisabledBorderColor
         FocusedBorderColor: =cmp_Agree.SliderStyles.FocusedBorderColor
         HandleActiveFill: =cmp_Agree.SliderStyles.HandleActiveFill
@@ -92,6 +97,7 @@ cmp_Agree As CanvasComponent:
         PressedBorderColor: =
         RailFill: =cmp_Agree.SliderStyles.RailFill
         RailHoverFill: =cmp_Agree.SliderStyles.RailHoverFill
+        ShowValue: =false
         ValueFill: =cmp_Agree.SliderStyles.ValueFill
         ValueHoverFill: =cmp_Agree.SliderStyles.ValueHoverFill
         Width: =cmp_Agree.Width-20
@@ -99,55 +105,48 @@ cmp_Agree As CanvasComponent:
         Y: =Self.Height
         ZIndex: =1
 
-    Label3 As label:
-        Font: =Font.'Segoe UI'
-        Text: ="Strongly Disagree"
-        X: =35
-        Y: =85
-        ZIndex: =2
+    Gallery1 As gallery.galleryHorizontal:
+        Height: =54
+        Items: |-
+            =Table(
+                {
+                    title: "Strongly disagree",
+                    rating: 1
+                },
+                {
+                    title: "Disagree",
+                    rating: 2
+                },
+                {
+                    title: "Neutral",
+                    rating: 3
+                },
+                {
+                    title: "Agree",
+                    rating: 4
+                },
+                {
+                    title: "Strongly Agree",
+                    rating: 5
+                }
+            )
+        ShowScrollbar: =false
+        TemplateSize: =88
+        Width: =cmp_Agree.Width-20
+        X: =10
+        Y: =80
+        ZIndex: =1
 
-    sli_4 As slider:
-        BorderColor: =cmp_Agree.SliderStyles.BorderColor
-        DisabledBorderColor: =cmp_Agree.SliderStyles.DisabledBorderColor
-        FocusedBorderColor: =cmp_DonutChart.SliderStyles.FocusedBorderColor
-        HandleActiveFill: =cmp_DonutChart.SliderStyles.HandleActiveFill
-        HandleFill: =cmp_DonutChart.SliderStyles.HandleFill
-        HandleHoverFill: =cmp_DonutChart.SliderStyles.HandleHoverFill
-        PressedBorderColor: =
-        RailFill: =cmp_DonutChart.SliderStyles.RailFill
-        RailHoverFill: =cmp_DonutChart.SliderStyles.RailHoverFill
-        ValueFill: =cmp_DonutChart.SliderStyles.ValueFill
-        ValueHoverFill: =cmp_DonutChart.SliderStyles.ValueHoverFill
-        Width: =cmp_DonutChart.Width-20
-        X: =(cmp_Agree.Width-Self.Width)/2
-        Y: =cmp_DonutChart.Height-Self.Height
-        ZIndex: =3
-
-    Label3_1 As label:
-        Font: =Font.'Segoe UI'
-        Text: ="Disagree"
-        X: =146
-        Y: =85
-        ZIndex: =4
-
-    Label3_2 As label:
-        Font: =Font.'Segoe UI'
-        Text: ="Neutral"
-        X: =257
-        Y: =85
-        ZIndex: =5
-
-    Label3_3 As label:
-        Font: =Font.'Segoe UI'
-        Text: ="Agree"
-        X: =368
-        Y: =85
-        ZIndex: =6
-
-    Label3_4 As label:
-        Font: =Font.'Segoe UI'
-        Text: ="Strongly Agree"
-        X: =480
-        Y: =85
-        ZIndex: =7
+        Label5 As label:
+            Align: =Align.Center
+            Color: =cmp_Agree.GalleryStyles.Color
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(sli_3.Value= ThisItem.rating, Bold, Normal)
+            OnSelect: =Select(Parent)
+            Size: =10
+            Text: =ThisItem.title
+            Width: =65
+            X: =5
+            Y: =4
+            ZIndex: =1
 

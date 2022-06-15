@@ -1561,9 +1561,24 @@ Screen1 As screen:
         ZIndex: =5
 
     ComboBox1 As combobox:
+        BorderColor: =gblAppStyles.Dropdown.BorderColor
+        ChevronBackground: =gblAppStyles.Dropdown.ChevronBackground
+        ChevronDisabledBackground: =gblAppStyles.Dropdown.ChevronDisabledBackground
+        ChevronDisabledFill: =gblAppStyles.Dropdown.ChevronDisabledFill
+        ChevronFill: =gblAppStyles.Dropdown.ChevronFill
+        ChevronHoverBackground: =gblAppStyles.Dropdown.ChevronHoverBackground
+        ChevronHoverFill: =gblAppStyles.Dropdown.ChevronHoverFill
+        Color: =gblAppStyles.Dropdown.Color
+        DisabledBorderColor: =gblAppStyles.Dropdown.DisabledBorderColor
+        DisabledColor: =gblAppStyles.Dropdown.DisabledColor
+        DisabledFill: =gblAppStyles.Dropdown.DisabledFill
+        Fill: =gblAppStyles.Dropdown.Fill
         FocusedBorderColor: =gblAppStyles.Dropdown.FocusedBorderColor
         Height: |
             =gblAppStyles.Dropdown.Height
+        HoverBorderColor: =gblAppStyles.Dropdown.HoverBorderColor
+        HoverColor: =gblAppStyles.Dropdown.HoverColor
+        HoverFill: =gblAppStyles.Dropdown.HoverFill
         InputTextPlaceholder: ="Combobox"
         Items: =ComboBoxSample
         SearchItems: =Search(ComboBoxSample,ComboBox1.SearchText,"Value1")
@@ -1837,21 +1852,21 @@ Screen1 As screen:
                 Height: 32,
                 Width: 208
             }
-        X: =365
-        Y: =70
+        X: =667
+        Y: =504
         ZIndex: =14
 
     cmp_Dropdown_1 As cmp_Dropdown:
         Height: =36
         Width: =218
-        X: =365
-        Y: =120
+        X: =667
+        Y: =554
         ZIndex: =15
 
     cmp_Combobox_1 As cmp_Combobox:
         Width: =216
-        X: =365
-        Y: =174
+        X: =667
+        Y: =608
         ZIndex: =16
 
     lbl_2 As label:
@@ -1910,14 +1925,6 @@ Screen1 As screen:
         X: =320
         Y: =20
         ZIndex: =19
-
-    Rectangle1_1 As rectangle:
-        Fill: =gblAppStyles.ButtonPrimary.Fill
-        Height: =App.Height - 40
-        Width: =2
-        X: =640
-        Y: =20
-        ZIndex: =20
 
     DatePicker1 As datepicker:
         BorderColor: =gblAppStyles.Dropdown.BorderColor
@@ -3151,111 +3158,124 @@ Screen1 As screen:
                             gblAppColors.TeamsDefaultPrimary
                         )
                     },
+                    Toast: {
+                        FillDarker: If(
+                            gblThemeHiCo,
+                            gblAppColors.NeutralWebBlack,
+                            gblThemeDark,
+                            gblAppColors.TeamsDefaultShade10,
+                            gblAppColors.TeamsDefaultShade10
+                        ),
+                        Fill: If(
+                            gblThemeHiCo,
+                            gblAppColors.NeutralWebBlack,
+                            gblThemeDark,
+                            gblAppColors.TeamsDarkTint10,
+                            gblAppColors.TeamsDarkPrimary
+                        )
+                    },
                     Timer: {
-            	BorderColor: If(
+                        BorderColor: If(
                             gblThemeHiCo,
                             gblAppColors.HighContrastHyperlinks,
                             gblThemeDark,
                             gblAppColors.OverlayTransparent,
                             gblAppColors.OverlayTransparent
                         ),
-            
-            Color: If(
+                        Color: If(
                             gblThemeHiCo,
                             gblAppColors.HighContrastHyperlinks,
                             gblThemeDark,
                             gblAppColors.NeutralWebWhite,
                             gblAppColors.NeutralWebWhite
                         ),
-            DisabledBorderColor: If(
-                                    gblThemeHiCo,
-                                    gblAppColors.HighContrastDisabled,
-                                    gblThemeDark,
-                                    gblAppColors.NeutralWebGray150,
-                                    gblAppColors.NeutralWebGray30
-                                ),
-                         DisabledColor: If(
-                                    gblThemeHiCo,
-                                    gblAppColors.NeutralWebBlack,
-                                    gblThemeDark,
-                                    gblAppColors.NeutralWebGray130,
-                                    gblAppColors.NeutralWebGray60
-                                ),
+                        DisabledBorderColor: If(
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastDisabled,
+                            gblThemeDark,
+                            gblAppColors.NeutralWebGray150,
+                            gblAppColors.NeutralWebGray30
+                        ),
+                        DisabledColor: If(
+                            gblThemeHiCo,
+                            gblAppColors.NeutralWebBlack,
+                            gblThemeDark,
+                            gblAppColors.NeutralWebGray130,
+                            gblAppColors.NeutralWebGray60
+                        ),
                         DisabledFill: If(
-                                    gblThemeHiCo,
-                                    gblAppColors.HighContrastDisabled,
-                                    gblThemeDark,
-                                    gblAppColors.NeutralWebGray150,
-                                    gblAppColors.NeutralWebGray30
-                                ),
-                                Fill: If(
-                                    gblThemeHiCo,
-                                    gblAppColors.NeutralWebBlack,
-                                    gblThemeDark,
-                                    gblAppColors.TeamsDarkTint10,
-                                    gblAppColors.TeamsDefaultPrimary
-                                ),
-                                FocusedBorderColor: If(
-                                    gblThemeHiCo,
-                                    gblAppColors.HighContrastSelectedBackground,
-                                    gblThemeDark,
-                                    gblAppColors.TeamsDarkShade20,
-                                    gblAppColors.NeutralMobileBlack
-                                ),
-                                FocusedBorderThickness: If(
-                                    gblThemeHiCo,
-                                    3,
-                                    gblThemeDark,
-                                    2.5,
-                                    2.5
-                                ),
-                                HoverBorderColor: If(
-                                    gblThemeHiCo,
-                                    gblAppColors.HighContrastHyperlinks,
-                                    gblThemeDark,
-                                    gblAppColors.TeamsDefaultTint10,
-                                    gblAppColors.TeamsDefaultShade10
-                                ),
-                                HoverColor: If(
-                                    gblThemeHiCo,
-                                    gblAppColors.NeutralWebBlack,
-                                    gblThemeDark,
-                                    gblAppColors.NeutralWebWhite,
-                                    gblAppColors.NeutralWebWhite
-                                ),
-                                HoverFill: If(
-                                    gblThemeHiCo,
-                                    gblAppColors.HighContrastHyperlinks,
-                                    gblThemeDark,
-                                    gblAppColors.TeamsDefaultTint10,
-                                    gblAppColors.TeamsDefaultShade10
-                                ),
-                                PressedBorderColor: If(
-                                    gblThemeHiCo,
-                                    gblAppColors.HighContrastSelectedBackground,
-                                    gblThemeDark,
-                                    gblAppColors.TeamsDefaultShade10,
-                                    gblAppColors.TeamsDefaultShade20
-                                ),
-                                PressedColor: If(
-                                    gblThemeHiCo,
-                                    gblAppColors.NeutralWebBlack,
-                                    gblThemeDark,
-                                    gblAppColors.NeutralWebWhite,
-                                    gblAppColors.NeutralWebWhite
-                                ),
-                                PressedFill: If(
-                                    gblThemeHiCo,
-                                    gblAppColors.HighContrastSelectedBackground,
-                                    gblThemeDark,
-                                    gblAppColors.TeamsDefaultShade10,
-                                    gblAppColors.TeamsDefaultShade20
-                                ),
-                                Radius: 4,
-                                Width: 68,
-                                Height: 32
-            
-            
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastDisabled,
+                            gblThemeDark,
+                            gblAppColors.NeutralWebGray150,
+                            gblAppColors.NeutralWebGray30
+                        ),
+                        Fill: If(
+                            gblThemeHiCo,
+                            gblAppColors.NeutralWebBlack,
+                            gblThemeDark,
+                            gblAppColors.TeamsDarkTint10,
+                            gblAppColors.TeamsDefaultPrimary
+                        ),
+                        FocusedBorderColor: If(
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastSelectedBackground,
+                            gblThemeDark,
+                            gblAppColors.TeamsDarkShade20,
+                            gblAppColors.NeutralMobileBlack
+                        ),
+                        FocusedBorderThickness: If(
+                            gblThemeHiCo,
+                            3,
+                            gblThemeDark,
+                            2.5,
+                            2.5
+                        ),
+                        HoverBorderColor: If(
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastHyperlinks,
+                            gblThemeDark,
+                            gblAppColors.TeamsDefaultTint10,
+                            gblAppColors.TeamsDefaultShade10
+                        ),
+                        HoverColor: If(
+                            gblThemeHiCo,
+                            gblAppColors.NeutralWebBlack,
+                            gblThemeDark,
+                            gblAppColors.NeutralWebWhite,
+                            gblAppColors.NeutralWebWhite
+                        ),
+                        HoverFill: If(
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastHyperlinks,
+                            gblThemeDark,
+                            gblAppColors.TeamsDefaultTint10,
+                            gblAppColors.TeamsDefaultShade10
+                        ),
+                        PressedBorderColor: If(
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastSelectedBackground,
+                            gblThemeDark,
+                            gblAppColors.TeamsDefaultShade10,
+                            gblAppColors.TeamsDefaultShade20
+                        ),
+                        PressedColor: If(
+                            gblThemeHiCo,
+                            gblAppColors.NeutralWebBlack,
+                            gblThemeDark,
+                            gblAppColors.NeutralWebWhite,
+                            gblAppColors.NeutralWebWhite
+                        ),
+                        PressedFill: If(
+                            gblThemeHiCo,
+                            gblAppColors.HighContrastSelectedBackground,
+                            gblThemeDark,
+                            gblAppColors.TeamsDefaultShade10,
+                            gblAppColors.TeamsDefaultShade20
+                        ),
+                        Radius: 4,
+                        Width: 68,
+                        Height: 32
                     },
                     Toggle: {
                         BorderColor: If(
@@ -3349,7 +3369,6 @@ Screen1 As screen:
                             gblAppColors.OverlayTransparent,
                             gblAppColors.OverlayTransparent
                         ),
-                        //Size: gblAppSizes.Font.Medium,
                         TrueFill: If(
                             gblThemeHiCo,
                             gblAppColors.HighContrastSelectedBackground,
@@ -3378,8 +3397,8 @@ Screen1 As screen:
         ZIndex: =22
 
     cmp_DonutChart_1 As cmp_DonutChart:
-        X: =365
-        Y: =270
+        X: =653
+        Y: =250
         ZIndex: =23
 
     lbl_4 As label:
@@ -3402,8 +3421,8 @@ Screen1 As screen:
         PressedFill: =gblAppStyles.Label.PressedFill
         Text: ="donutchart cmp"
         Width: =214
-        X: =365
-        Y: =270
+        X: =653
+        Y: =234
         ZIndex: =24
 
     Label2 As label:
@@ -3412,4 +3431,48 @@ Screen1 As screen:
         X: =60
         Y: =100
         ZIndex: =26
+
+    cmp_Agree_1 As cmp_Agree:
+        Width: =460
+        X: =369
+        Y: =604
+        ZIndex: =27
+
+    cmp_Coachmark_1 As cmp_Coachmark:
+        X: =349
+        Y: =374
+        ZIndex: =29
+
+    cmp_Toast_1 As cmp_Toast:
+        ButtonStyles: |-
+            ={
+                Fill: gblAppStyles.ButtonPrimary.Fill,
+                Color: gblAppStyles.ButtonPrimary.Color,
+                RadiusTopLeft: gblAppStyles.ButtonPrimary.Radius,
+                BorderColor: gblAppStyles.ButtonPrimary.BorderColor,
+                BorderThickness: gblAppStyles.ButtonPrimary.BorderThickness,
+                DisabledBorderColor: gblAppStyles.ButtonPrimary.DisabledBorderColor,
+                DisabledColor: gblAppStyles.ButtonPrimary.DisabledColor,
+                DisabledFill: gblAppStyles.ButtonPrimary.DisabledFill,
+                FocusedBorderColor: gblAppStyles.ButtonPrimary.FocusedBorderColor,
+                FocusedBorderThickness: gblAppStyles.ButtonPrimary.FocusedBorderThickness,
+                HoverBorderColor: gblAppStyles.ButtonPrimary.BorderColor,
+                HoverColor: gblAppStyles.ButtonPrimary.Color,
+                HoverFill: gblAppStyles.ButtonPrimary.Fill,
+                PressedBorderColor: gblAppStyles.ButtonPrimary.PressedBorderColor,
+                PressedColor: gblAppStyles.ButtonPrimary.PressedColor,
+                PressedFill: gblAppStyles.ButtonPrimary.PressedFill,
+                Radius: 4,
+                Width: 68,
+                Height: 32
+            }
+        Fill: =
+        X: =653
+        Y: =70
+        ZIndex: =30
+
+    cmp_Carousel_1 As cmp_Carousel:
+        X: =343
+        Y: =70
+        ZIndex: =31
 

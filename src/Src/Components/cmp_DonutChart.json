@@ -91,7 +91,7 @@
         "Name": "PieChart1",
         "Parent": "cmp_DonutChart",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 31,
+        "PublishOrderIndex": 5,
         "Rules": [
           {
             "Category": "Data",
@@ -298,7 +298,7 @@
         "Name": "Circle1",
         "Parent": "cmp_DonutChart",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 32,
+        "PublishOrderIndex": 6,
         "Rules": [
           {
             "Category": "Design",
@@ -539,7 +539,7 @@
         "Name": "sli_2",
         "Parent": "cmp_DonutChart",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 33,
+        "PublishOrderIndex": 7,
         "Rules": [
           {
             "Category": "Design",

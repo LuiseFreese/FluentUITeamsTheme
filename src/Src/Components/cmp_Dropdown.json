@@ -252,7 +252,7 @@
         "Name": "drp_2",
         "Parent": "cmp_Dropdown",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 34,
+        "PublishOrderIndex": 9,
         "Rules": [
           {
             "Category": "Data",
@@ -607,7 +607,7 @@
         "Name": "rec_Underline_1",
         "Parent": "cmp_Dropdown",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 35,
+        "PublishOrderIndex": 10,
         "Rules": [
           {
             "Category": "Design",

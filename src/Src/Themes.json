@@ -1,5 +1,5 @@
 {
-  "CurrentTheme": "defaultTheme",
+  "CurrentTheme": "officeGreenTheme",
   "CustomThemes": [
     {
       "name": "defaultTheme",
@@ -329,7 +329,7 @@
           "propertyValuesMap": [
             {
               "property": "Fill",
-              "value": "Red"
+              "value": "%Palette.ScreenBkgColor%"
             },
             {
               "property": "LoadingSpinnerColor",

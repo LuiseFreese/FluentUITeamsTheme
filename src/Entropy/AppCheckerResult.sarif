@@ -667,6 +667,64 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Screen8"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen8",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "Screen8",
+                "type": "Screen8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Low"
+          },
+          "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen9"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen9",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "Screen9",
+                "type": "Screen9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Low"
+          },
+          "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.Slide1"
                 }
               ],

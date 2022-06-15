@@ -92,7 +92,6 @@ cmp_DonutChart As CanvasComponent:
     PieChart1 As pieChart:
         BorderColor: =    
         Color: =
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
         Height: =cmp_DonutChart.Height
         ItemColorSet: =cmp_DonutChart.ChartStyles.ItemColorSet
         Items: |-
@@ -128,7 +127,6 @@ cmp_DonutChart As CanvasComponent:
         ZIndex: =5
 
     Circle1 As circle:
-        BorderColor: =RGBA(0, 18, 107, 1)
         Fill: =cmp_DonutChart.CircleStyles.Fill
         Height: =(cmp_DonutChart.Width/3)
         Width: =(cmp_DonutChart.Width/3)

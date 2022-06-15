@@ -65,12 +65,13 @@ cmp_Carousel As CanvasComponent:
 
     Image2 As image:
         BorderColor: =cmp_Carousel.ButtonStyles.Color
-        BorderThickness: =1
+        BorderThickness: =1.5
         Fill: =cmp_Carousel.ButtonStyles.BackGround
-        Height: =160
+        Height: =164
         Image: =LookUp(cmp_Carousel.GalleryContent,Id=cmpPageCount,Image)
         Width: =280
         X: =6
+        Y: =2
         ZIndex: =2
 
     btn_middle As button:

@@ -3433,8 +3433,8 @@ Screen1 As screen:
         ZIndex: =26
 
     cmp_Agree_1 As cmp_Agree:
-        Width: =460
-        X: =369
+        Width: =480
+        X: =349
         Y: =604
         ZIndex: =27
 

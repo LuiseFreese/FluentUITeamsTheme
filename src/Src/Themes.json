@@ -299,7 +299,7 @@
         {
           "name": "DefaultSize2",
           "type": "n",
-          "value": "14"
+          "value": "13"
         },
         {
           "name": "DropTargetBorderColor",
@@ -329,11 +329,11 @@
           "propertyValuesMap": [
             {
               "property": "Fill",
-              "value": "gblAppStyles.Background.Fill"
+              "value": "%Palette.ScreenBkgColor%"
             },
             {
               "property": "LoadingSpinnerColor",
-              "value": "gblAppStyles.ButtonPrimary.BorderColor"
+              "value": "%Palette.PrimaryColor1%"
             }
           ]
         },

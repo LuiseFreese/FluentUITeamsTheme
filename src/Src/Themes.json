@@ -7,7 +7,7 @@
         {
           "name": "ScreenBkgColor",
           "type": "c",
-          "value": "White"
+          "value": "gblAppStyles.Background.Fill"
         },
         {
           "name": "InvertedBkgColor",
@@ -72,7 +72,7 @@
         {
           "name": "InputBkgColor",
           "type": "c",
-          "value": "RGBA(255, 255, 255, 1)"
+          "value": "gblAppStyles.Background.Fill"
         },
         {
           "name": "InputTextColor",
@@ -172,7 +172,7 @@
         {
           "name": "ReservedWhiteColor",
           "type": "c",
-          "value": "RGBA(255, 255, 255, 1)"
+          "value": "gblAppStyles.Background.Fill"
         },
         {
           "name": "ReservedGrayColor",

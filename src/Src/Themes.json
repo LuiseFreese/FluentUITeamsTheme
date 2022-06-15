@@ -72,7 +72,7 @@
         {
           "name": "InputBkgColor",
           "type": "c",
-          "value": "gblAppStyles.Background.Fill"
+          "value": "RGBA(255, 255, 255, 1)"
         },
         {
           "name": "InputTextColor",

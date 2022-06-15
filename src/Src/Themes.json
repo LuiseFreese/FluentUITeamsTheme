@@ -7,7 +7,7 @@
         {
           "name": "ScreenBkgColor",
           "type": "c",
-          "value": "Red"
+          "value": "White"
         },
         {
           "name": "InvertedBkgColor",

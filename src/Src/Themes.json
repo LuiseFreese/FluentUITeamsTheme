@@ -363,7 +363,7 @@
             },
             {
               "property": "Size",
-              "value": "14"
+              "value": "%Palette.TextBodyFontSize%"
             },
             {
               "property": "LineHeight",

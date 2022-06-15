@@ -2825,7 +2825,7 @@
             },
             {
               "property": "Font",
-              "value": "%Font.RESERVED%.'Open Sans"
+              "value": "%Font.RESERVED%.'Segoe UI'"
             },
             {
               "property": "Size",
